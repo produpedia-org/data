@@ -1412,8 +1412,17 @@
                     ]
                 },
                 {
-                    "name": "MobilePhone",
-                    "children": []
+                    "name": "Phone",
+                    "children": [
+                        {
+                            "name": "MobilePhone",
+                            "children": [
+                                {
+                                    "name": "Smartphone"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "name": "Robot",
