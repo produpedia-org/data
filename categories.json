@@ -1998,6 +1998,21 @@
                     ]
                 },
                 {
+                    "name": "Computer",
+                    "children": [
+                        {
+                            "name": "TabletComputer",
+                            "aliases": [
+                                "Tablet"
+                            ]
+                        },
+                        {
+                            "name": "Supercomputer",
+                            "unique": true
+                        }
+                    ]
+                },
+                {
                     "name": "Robot",
                     "children": [],
                     "label": "Robot@en"
