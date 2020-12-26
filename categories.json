@@ -1,12 +1,19 @@
+[
 {
     "name": "Thing",
     "wrapper": true,
     "children": [
         {
             "name": "Activity",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "Game",
+                    "additional_parents": [
+                        "Group"
+                    ],
                     "children": [
                         {
                             "name": "BoardGame",
@@ -40,6 +47,9 @@
         {
             "name": "Agent",
             "wrapper": true,
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "Deity",
@@ -1209,6 +1219,9 @@
         {
             "name": "AnatomicalStructure",
             "wrapper": true,
+            "additional_parents": [
+                "Group"
+            ],
             "children": [
                 {
                     "name": "Artery",
@@ -1258,6 +1271,9 @@
         },
         {
             "name": "Award",
+            "additional_parents": [
+                "Group"
+            ],
             "children": [
                 {
                     "name": "Decoration",
@@ -1271,6 +1287,9 @@
         },
         {
             "name": "Biomolecule",
+            "additional_parents": [
+                "Group"
+            ],
             "children": [
                 {
                     "name": "Enzyme",
@@ -1309,10 +1328,16 @@
         },
         {
             "name": "Blazon",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
             "name": "Browser",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
@@ -1321,6 +1346,9 @@
         },
         {
             "name": "ChemicalSubstance",
+            "additional_parents": [
+                "Group"
+            ],
             "wrapper": true,
             "children": [
                 {
@@ -1356,14 +1384,23 @@
         },
         {
             "name": "Cipher",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
             "name": "Colour",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
             "name": "Currency",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
@@ -1376,6 +1413,9 @@
         },
         {
             "name": "Device",
+            "additional_parents": [
+                "Group"
+            ],
             "children": [
                 {
                     "name": "Battery",
@@ -1436,10 +1476,16 @@
         },
         {
             "name": "Diploma",
+            "additional_parents": [
+                "Group"
+            ],
             "children": []
         },
         {
             "name": "Disease",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
@@ -1448,6 +1494,9 @@
         },
         {
             "name": "EthnicGroup",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
@@ -1465,6 +1514,9 @@
                 },
                 {
                     "name": "LifeCycleEvent",
+                    "additional_parents": [
+                        "Group"
+                    ],
                     "children": [
                         {
                             "name": "PersonalEvent",
@@ -1475,6 +1527,9 @@
                 {
                     "name": "NaturalEvent",
                     "wrapper": true,
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": [
                         {
                             "name": "Earthquake",
@@ -1492,10 +1547,16 @@
                 },
                 {
                     "name": "Outbreak",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": []
                 },
                 {
                     "name": "PenaltyShootOut",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": []
                 },
                 {
@@ -1508,6 +1569,9 @@
                         },
                         {
                             "name": "Attack",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
@@ -1516,6 +1580,9 @@
                         },
                         {
                             "name": "Election",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
@@ -1528,10 +1595,16 @@
                         },
                         {
                             "name": "Meeting",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "MilitaryConflict",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
@@ -1540,14 +1613,23 @@
                         },
                         {
                             "name": "Rebellion",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "SpaceMission",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "SportsEvent",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": [
                                 {
                                     "name": "CyclingCompetition",
@@ -1632,14 +1714,23 @@
         },
         {
             "name": "FileSystem",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
             "name": "Flag",
+            "additional_parents": [
+                "Group"
+            ],
             "children": []
         },
         {
             "name": "Food",
+            "additional_parents": [
+                "Group"
+            ],
             "children": [
                 {
                     "name": "Beverage",
@@ -1671,6 +1762,9 @@
         },
         {
             "name": "GeneLocation",
+            "additional_parents": [
+                "Group"
+            ],
             "children": [
                 {
                     "name": "HumanGeneLocation",
@@ -1693,6 +1787,9 @@
         {
             "name": "Identifier",
             "wrapper": true,
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "TopLevelDomain",
@@ -1702,6 +1799,9 @@
         },
         {
             "name": "Language",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "ProgrammingLanguage",
@@ -1721,6 +1821,9 @@
         {
             "name": "MeanOfTransportation",
             "wrapper": true,
+            "additional_parents": [
+                "Group"
+            ],
             "children": [
                 {
                     "name": "Aircraft",
@@ -1779,6 +1882,9 @@
                 },
                 {
                     "name": "SpaceStation",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": []
                 },
                 {
@@ -1805,14 +1911,23 @@
         },
         {
             "name": "MedicalSpecialty",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
             "name": "Medicine",
+            "additional_parents": [
+                "Group"
+            ],
             "children": []
         },
         {
             "name": "Name",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "GivenName",
@@ -1827,6 +1942,9 @@
         {
             "name": "PersonFunction",
             "wrapper": true,
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "PoliticalFunction",
@@ -1841,6 +1959,9 @@
         {
             "name": "Place",
             "wrapper": true,
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "ArchitecturalStructure",
@@ -2585,10 +2706,16 @@
         },
         {
             "name": "Population",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
             "name": "Protocol",
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": []
         },
         {
@@ -2601,6 +2728,9 @@
         },
         {
             "name": "Species",
+            "additional_parents": [
+                "Group"
+            ],
             "children": [
                 {
                     "name": "Archaea",
@@ -2741,6 +2871,9 @@
         {
             "name": "SportsSeason",
             "wrapper": true,
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "MotorsportSeason",
@@ -2798,6 +2931,9 @@
         {
             "name": "TimePeriod",
             "wrapper": true,
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "CareerStation",
@@ -2849,6 +2985,9 @@
         {
             "name": "TopicalConcept",
             "wrapper": true,
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "AcademicSubject",
@@ -2931,6 +3070,9 @@
                 {
                     "name": "Type",
                     "wrapper": true,
+                    "additional_parents": [
+                        "Group"
+                    ],
                     "children": [
                         {
                             "name": "DocumentType",
@@ -2947,6 +3089,9 @@
         {
             "name": "UnitOfWork",
             "wrapper": true,
+            "additional_parents": [
+                "Unicum"
+            ],
             "children": [
                 {
                     "name": "Case",
@@ -2989,6 +3134,9 @@
             "children": [
                 {
                     "name": "Artwork",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": [
                         {
                             "name": "Painting",
@@ -3002,6 +3150,9 @@
                 },
                 {
                     "name": "Cartoon",
+                    "additional_parents": [
+                        "Group"
+                    ],
                     "children": [
                         {
                             "name": "Anime",
@@ -3015,6 +3166,9 @@
                 },
                 {
                     "name": "CollectionOfValuables",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": [
                         {
                             "name": "Archive",
@@ -3024,6 +3178,9 @@
                 },
                 {
                     "name": "Database",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": [
                         {
                             "name": "BiologicalDatabase",
@@ -3033,6 +3190,9 @@
                 },
                 {
                     "name": "Document",
+                    "additional_parents": [
+                        "Group"
+                    ],
                     "children": [
                         {
                             "name": "File",
@@ -3059,15 +3219,24 @@
                 },
                 {
                     "name": "Film",
+                    "additional_parents": [
+                        "Group"
+                    ],
                     "children": []
                 },
                 {
                     "name": "LineOfFashion",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": []
                 },
                 {
                     "name": "MusicalWork",
                     "wrapper": true,
+                    "additional_parents": [
+                        "Group"
+                    ],
                     "children": [
                         {
                             "name": "Album",
@@ -3075,22 +3244,37 @@
                         },
                         {
                             "name": "ArtistDiscography",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "ClassicalMusicComposition",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "Musical",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "NationalAnthem",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "Opera",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
@@ -3099,6 +3283,9 @@
                         },
                         {
                             "name": "Song",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": [
                                 {
                                     "name": "EurovisionSongContestEntry",
@@ -3110,6 +3297,9 @@
                 },
                 {
                     "name": "RadioProgram",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": []
                 },
                 {
@@ -3123,18 +3313,30 @@
                 },
                 {
                     "name": "TelevisionEpisode",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": []
                 },
                 {
                     "name": "TelevisionSeason",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": []
                 },
                 {
                     "name": "TelevisionShow",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": []
                 },
                 {
                     "name": "Website",
+                    "additional_parents": [
+                        "Unicum"
+                    ],
                     "children": []
                 },
                 {
@@ -3199,6 +3401,9 @@
                         },
                         {
                             "name": "Letter",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
@@ -3233,22 +3438,37 @@
                         },
                         {
                             "name": "Poem",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "Quote",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "Resume",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "StatedResolution",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         },
                         {
                             "name": "Treaty",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
                             "children": []
                         }
                     ]
@@ -3256,4 +3476,13 @@
             ]
         }
     ]
+},
+{
+    "name": "Unicum",
+    "children": []
+},
+{
+    "name": "Group",
+    "children": []
 }
+]
