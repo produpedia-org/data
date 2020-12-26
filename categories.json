@@ -1,5 +1,6 @@
 {
     "name": "Thing",
+    "wrapper": true,
     "children": [
         {
             "name": "Activity",
@@ -38,6 +39,7 @@
         },
         {
             "name": "Agent",
+            "wrapper": true,
             "children": [
                 {
                     "name": "Deity",
@@ -49,6 +51,7 @@
                 },
                 {
                     "name": "Family",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "NobleFamily",
@@ -453,6 +456,7 @@
                 },
                 {
                     "name": "Person",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "Archeologist",
@@ -628,6 +632,7 @@
                                 },
                                 {
                                     "name": "GridironFootballPlayer",
+                                    "wrapper": true,
                                     "children": [
                                         {
                                             "name": "AmericanFootballPlayer",
@@ -1203,6 +1208,7 @@
         },
         {
             "name": "AnatomicalStructure",
+            "wrapper": true,
             "children": [
                 {
                     "name": "Artery",
@@ -1315,6 +1321,7 @@
         },
         {
             "name": "ChemicalSubstance",
+            "wrapper": true,
             "children": [
                 {
                     "name": "ChemicalCompound",
@@ -1445,6 +1452,7 @@
         },
         {
             "name": "Event",
+            "wrapper": true,
             "children": [
                 {
                     "name": "Competition",
@@ -1466,6 +1474,7 @@
                 },
                 {
                     "name": "NaturalEvent",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "Earthquake",
@@ -1491,6 +1500,7 @@
                 },
                 {
                     "name": "SocietalEvent",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "AcademicConference",
@@ -1682,6 +1692,7 @@
         },
         {
             "name": "Identifier",
+            "wrapper": true,
             "children": [
                 {
                     "name": "TopLevelDomain",
@@ -1709,6 +1720,7 @@
         },
         {
             "name": "MeanOfTransportation",
+            "wrapper": true,
             "children": [
                 {
                     "name": "Aircraft",
@@ -1737,6 +1749,7 @@
                 },
                 {
                     "name": "On-SiteTransportation",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "ConveyorSystem",
@@ -1813,6 +1826,7 @@
         },
         {
             "name": "PersonFunction",
+            "wrapper": true,
             "children": [
                 {
                     "name": "PoliticalFunction",
@@ -1826,9 +1840,11 @@
         },
         {
             "name": "Place",
+            "wrapper": true,
             "children": [
                 {
                     "name": "ArchitecturalStructure",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "AmusementParkAttraction",
@@ -1944,6 +1960,7 @@
                         },
                         {
                             "name": "Infrastructure",
+                            "wrapper": true,
                             "children": [
                                 {
                                     "name": "Airport",
@@ -1984,6 +2001,7 @@
                                 },
                                 {
                                     "name": "RouteOfTransportation",
+                                    "wrapper": true,
                                     "children": [
                                         {
                                             "name": "Bridge",
@@ -2087,6 +2105,7 @@
                         },
                         {
                             "name": "SportFacility",
+                            "wrapper": true,
                             "children": [
                                 {
                                     "name": "CricketGround",
@@ -2145,6 +2164,7 @@
                 },
                 {
                     "name": "CelestialBody",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "Asteroid",
@@ -2230,6 +2250,7 @@
                 },
                 {
                     "name": "NaturalPlace",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "Archipelago",
@@ -2334,6 +2355,7 @@
                 },
                 {
                     "name": "PopulatedPlace",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "Agglomeration",
@@ -2718,6 +2740,7 @@
         },
         {
             "name": "SportsSeason",
+            "wrapper": true,
             "children": [
                 {
                     "name": "MotorsportSeason",
@@ -2725,6 +2748,7 @@
                 },
                 {
                     "name": "SportsTeamSeason",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "BaseballSeason",
@@ -2773,6 +2797,7 @@
         },
         {
             "name": "TimePeriod",
+            "wrapper": true,
             "children": [
                 {
                     "name": "CareerStation",
@@ -2823,6 +2848,7 @@
         },
         {
             "name": "TopicalConcept",
+            "wrapper": true,
             "children": [
                 {
                     "name": "AcademicSubject",
@@ -2904,6 +2930,7 @@
                 },
                 {
                     "name": "Type",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "DocumentType",
@@ -2919,6 +2946,7 @@
         },
         {
             "name": "UnitOfWork",
+            "wrapper": true,
             "children": [
                 {
                     "name": "Case",
@@ -2947,6 +2975,7 @@
         },
         {
             "name": "Unknown",
+            "wrapper": true,
             "children": [
                 {
                     "name": "WikimediaTemplate",
@@ -2956,6 +2985,7 @@
         },
         {
             "name": "Work",
+            "wrapper": true,
             "children": [
                 {
                     "name": "Artwork",
@@ -3037,6 +3067,7 @@
                 },
                 {
                     "name": "MusicalWork",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "Album",
@@ -3108,6 +3139,7 @@
                 },
                 {
                     "name": "WrittenWork",
+                    "wrapper": true,
                     "children": [
                         {
                             "name": "Annotation",
@@ -3175,6 +3207,7 @@
                         },
                         {
                             "name": "PeriodicalLiterature",
+                            "wrapper": true,
                             "children": [
                                 {
                                     "name": "AcademicJournal",
