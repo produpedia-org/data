@@ -61,6 +61,9 @@
                 {
                     "name": "Deity",
                     "children": [],
+                    "additional_parents": [
+                        "Creature"
+                    ],
                     "ontology_only": true,
                     "label": "deity@en"
                 },
@@ -119,6 +122,9 @@
                             "ontology_only": true,
                             "label": "soap character@en"
                         }
+                    ],
+                    "additional_parents": [
+                        "Creature"
                     ],
                     "ontology_only": true,
                     "label": "fictional character@en"
@@ -1665,6 +1671,9 @@
                             "ontology_only": true,
                             "label": "writer@en"
                         }
+                    ],
+                    "additional_parents": [
+                        "Creature"
                     ]
                 }
             ]
@@ -3599,7 +3608,7 @@
         {
             "name": "Species",
             "additional_parents": [
-                "Group"
+                "Group", "Creature"
             ],
             "children": [
                 {
@@ -4401,6 +4410,10 @@
 },
 {
     "name": "Group",
+    "children": []
+},
+{
+    "name": "Creature",
     "children": []
 }
 ]
