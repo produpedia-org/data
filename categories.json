@@ -23,22 +23,26 @@
                             "name": "CardGame",
                             "children": []
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Sport",
                     "children": [
                         {
                             "name": "Athletics",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "TeamSport",
                             "children": []
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 }
-            ]
+            ],
+            "ontology_only": true
         },
         {
             "name": "Agent",
@@ -49,11 +53,13 @@
             "children": [
                 {
                     "name": "Deity",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Employer",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Family",
@@ -73,9 +79,11 @@
                             "children": [
                                 {
                                     "name": "AnimangaCharacter",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "DisneyCharacter",
@@ -83,7 +91,8 @@
                         },
                         {
                             "name": "MythologicalFigure",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "NarutoCharacter",
@@ -91,9 +100,11 @@
                         },
                         {
                             "name": "SoapCharacter",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Organisation",
@@ -103,28 +114,34 @@
                             "children": [
                                 {
                                     "name": "BroadcastNetwork",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "RadioStation",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "TelevisionStation",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Company",
                             "children": [
                                 {
                                     "name": "Bank",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Brewery",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Caterer",
@@ -132,55 +149,68 @@
                                 },
                                 {
                                     "name": "LawFirm",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "PublicTransitSystem",
                                     "children": [
                                         {
                                             "name": "Airline",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "BusCompany",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Publisher",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "RecordLabel",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Winery",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "EducationalInstitution",
                             "children": [
                                 {
                                     "name": "College",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Library",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "School",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "University",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "EmployersOrganisation",
@@ -197,20 +227,24 @@
                                     "name": "GovernmentCabinet",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Group",
                             "children": [
                                 {
                                     "name": "Band",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "ComedyGroup",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "InternationalOrganisation",
@@ -218,11 +252,13 @@
                         },
                         {
                             "name": "Legislature",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "MilitaryUnit",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Non-ProfitOrganisation",
@@ -235,11 +271,13 @@
                         },
                         {
                             "name": "Parliament",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "PoliticalParty",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "ReligiousOrganisation",
@@ -263,7 +301,8 @@
                                 },
                                 {
                                     "name": "RugbyClub",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SoccerClub",
@@ -272,7 +311,8 @@
                                             "name": "NationalSoccerClub",
                                             "children": []
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 }
                             ]
                         },
@@ -281,7 +321,8 @@
                             "children": [
                                 {
                                     "name": "AmericanFootballLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "AustralianFootballLeague",
@@ -293,11 +334,13 @@
                                 },
                                 {
                                     "name": "BaseballLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "BasketballLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "BowlingLeague",
@@ -325,7 +368,8 @@
                                 },
                                 {
                                     "name": "FieldHockeyLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "FormulaOneRacing",
@@ -333,15 +377,18 @@
                                 },
                                 {
                                     "name": "GolfLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "HandballLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "IceHockeyLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "InlineHockeyLeague",
@@ -349,7 +396,8 @@
                                 },
                                 {
                                     "name": "LacrosseLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "MixedMartialArtsLeague",
@@ -357,7 +405,8 @@
                                 },
                                 {
                                     "name": "MotorcycleRacingLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "PaintballLeague",
@@ -365,7 +414,8 @@
                                 },
                                 {
                                     "name": "PoloLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "RadioControlledRacingLeague",
@@ -373,23 +423,28 @@
                                 },
                                 {
                                     "name": "RugbyLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SoccerLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SoftballLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SpeedwayLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "TennisLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "VideogamesLeague",
@@ -397,64 +452,80 @@
                                 },
                                 {
                                     "name": "VolleyballLeague",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "SportsTeam",
                             "children": [
                                 {
                                     "name": "AmericanFootballTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "AustralianFootballTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "BaseballTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "BasketballTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "CanadianFootballTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "CricketTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "CyclingTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "FormulaOneTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "HandballTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "HockeyTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SpeedwayTeam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "TradeUnion",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Person",
@@ -462,15 +533,18 @@
                     "children": [
                         {
                             "name": "Archeologist",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Architect",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Aristocrat",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Artist",
@@ -480,33 +554,41 @@
                                     "children": [
                                         {
                                             "name": "AdultActor",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "VoiceActor",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Comedian",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "ComicsCreator",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Dancer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "FashionDesigner",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Humorist",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "MusicalArtist",
@@ -517,16 +599,19 @@
                                         },
                                         {
                                             "name": "ClassicalMusicArtist",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Instrumentalist",
                                             "children": [
                                                 {
                                                     "name": "Guitarist",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 }
-                                            ]
+                                            ],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "MusicDirector",
@@ -534,27 +619,34 @@
                                         },
                                         {
                                             "name": "Singer",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Painter",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Photographer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Sculptor",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Astronaut",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Athlete",
@@ -569,68 +661,84 @@
                                 },
                                 {
                                     "name": "AustralianRulesFootballPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "BadmintonPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "BaseballPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "BasketballPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Bodybuilder",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Boxer",
                                     "children": [
                                         {
                                             "name": "AmateurBoxer",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "BullFighter",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Canoeist",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "ChessPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Cricketer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Cyclist",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "DartsPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Fencer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "GaelicGamesPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "GolfPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "GridironFootballPlayer",
@@ -638,7 +746,8 @@
                                     "children": [
                                         {
                                             "name": "AmericanFootballPlayer",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "CanadianFootballPlayer",
@@ -648,11 +757,13 @@
                                 },
                                 {
                                     "name": "Gymnast",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "HandballPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "HighDiver",
@@ -660,19 +771,23 @@
                                 },
                                 {
                                     "name": "HorseRider",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Jockey",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "LacrossePlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "MartialArtist",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "MotorsportRacer",
@@ -686,9 +801,11 @@
                                                 },
                                                 {
                                                     "name": "SpeedwayRider",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 }
-                                            ]
+                                            ],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "RacingDriver",
@@ -699,68 +816,83 @@
                                                 },
                                                 {
                                                     "name": "FormulaOneRacer",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "NascarDriver",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "RallyDriver",
                                                     "children": []
                                                 }
-                                            ]
+                                            ],
+                                            "ontology_only": true
                                         }
                                     ]
                                 },
                                 {
                                     "name": "NationalCollegiateAthleticAssociationAthlete",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "NetballPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "PokerPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Rower",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "RugbyPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SnookerPlayer",
                                     "children": [
                                         {
                                             "name": "SnookerChamp",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SoccerPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SquashPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Surfer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Swimmer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "TableTennisPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "TeamMember",
@@ -768,16 +900,19 @@
                                 },
                                 {
                                     "name": "TennisPlayer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "VolleyballPlayer",
                                     "children": [
                                         {
                                             "name": "BeachVolleyballPlayer",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "WaterPoloPlayer",
@@ -788,7 +923,8 @@
                                     "children": [
                                         {
                                             "name": "Biathlete",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "BobsleighAthlete",
@@ -800,15 +936,18 @@
                                         },
                                         {
                                             "name": "Curler",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "FigureSkater",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "IceHockeyPlayer",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "NordicCombined",
@@ -816,7 +955,8 @@
                                         },
                                         {
                                             "name": "Skater",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Ski_jumper",
@@ -824,11 +964,13 @@
                                         },
                                         {
                                             "name": "Skier",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "SpeedSkater",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
                                     ]
                                 },
@@ -837,61 +979,76 @@
                                     "children": [
                                         {
                                             "name": "SumoWrestler",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "BeautyQueen",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "BusinessPerson",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Chef",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Cleric",
                             "children": [
                                 {
                                     "name": "Cardinal",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "ChristianBishop",
                                     "children": [
                                         {
                                             "name": "Archbishop",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "ChristianPatriarch",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Pope",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Priest",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Saint",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Vicar",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Coach",
@@ -902,13 +1059,16 @@
                                 },
                                 {
                                     "name": "CollegeCoach",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "VolleyballCoach",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Criminal",
@@ -920,9 +1080,11 @@
                                             "name": "SerialKiller",
                                             "children": []
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "DBpedian",
@@ -930,39 +1092,48 @@
                         },
                         {
                             "name": "Economist",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Egyptologist",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Engineer",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Farmer",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "HorseTrainer",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Journalist",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Judge",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Lawyer",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Linguist",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "MemberResistanceMovement",
@@ -970,15 +1141,18 @@
                         },
                         {
                             "name": "MilitaryPerson",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Model",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Monarch",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "MovieDirector",
@@ -986,7 +1160,8 @@
                         },
                         {
                             "name": "Noble",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "OfficeHolder",
@@ -994,46 +1169,56 @@
                         },
                         {
                             "name": "Philosopher",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "PlayboyPlaymate",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Politician",
                             "children": [
                                 {
                                     "name": "Ambassador",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Chancellor",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Congressman",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Deputy",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Governor",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Lieutenant",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Mayor",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "MemberOfParliament",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Minister",
@@ -1041,15 +1226,18 @@
                                 },
                                 {
                                     "name": "President",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "PrimeMinister",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Senator",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "VicePresident",
@@ -1059,7 +1247,8 @@
                                     "name": "VicePrimeMinister",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "PoliticianSpouse",
@@ -1070,29 +1259,36 @@
                             "children": [
                                 {
                                     "name": "RadioHost",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "TelevisionHost",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Producer",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Psychologist",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Referee",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Religious",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "RomanEmperor",
@@ -1106,39 +1302,47 @@
                                     "children": [
                                         {
                                             "name": "Baronet",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
                                     ]
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Scientist",
                             "children": [
                                 {
                                     "name": "Biologist",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Entomologist",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Medician",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Professor",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "SportsManager",
                             "children": [
                                 {
                                     "name": "SoccerManager",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
                             ]
                         },
@@ -1155,7 +1359,8 @@
                             "children": [
                                 {
                                     "name": "Historian",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "MusicComposer",
@@ -1163,21 +1368,26 @@
                                 },
                                 {
                                     "name": "PlayWright",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Poet",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "ScreenWriter",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SongWriter",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         }
                     ]
                 }
@@ -1196,7 +1406,8 @@
             "children": [
                 {
                     "name": "Artery",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "BloodVessel",
@@ -1204,35 +1415,43 @@
                 },
                 {
                     "name": "Bone",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Brain",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Embryology",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Ligament",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Lymph",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Muscle",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Nerve",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Vein",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
             ]
         },
@@ -1244,13 +1463,15 @@
             "children": [
                 {
                     "name": "Decoration",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "NobelPrize",
                     "children": []
                 }
-            ]
+            ],
+            "ontology_only": true
         },
         {
             "name": "Biomolecule",
@@ -1260,20 +1481,23 @@
             "children": [
                 {
                     "name": "Enzyme",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Gene",
                     "children": [
                         {
                             "name": "HumanGene",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "MouseGene",
                             "children": []
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Hormone",
@@ -1285,11 +1509,13 @@
                 },
                 {
                     "name": "Polysaccharide",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Protein",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
             ]
         },
@@ -1316,7 +1542,8 @@
             "children": [
                 {
                     "name": "ChemicalCompound",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "ChemicalElement",
@@ -1327,21 +1554,26 @@
                     "children": [
                         {
                             "name": "CombinationDrug",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "MonoclonalAntibody",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Vaccine",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Mineral",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
             ]
         },
@@ -1374,7 +1606,8 @@
             "children": [
                 {
                     "name": "Battery",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Camera",
@@ -1383,33 +1616,39 @@
                             "name": "DigitalCamera",
                             "children": []
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Engine",
                     "children": [
                         {
                             "name": "AutomobileEngine",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "RocketEngine",
                             "children": []
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Instrument",
                     "children": [
                         {
                             "name": "Guitar",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Organ",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Phone",
@@ -1430,9 +1669,11 @@
                 },
                 {
                     "name": "Weapon",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
-            ]
+            ],
+            "ontology_only": true
         },
         {
             "name": "Diploma",
@@ -1464,9 +1705,11 @@
                     "children": [
                         {
                             "name": "Contest",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "NaturalEvent",
@@ -1477,11 +1720,13 @@
                     "children": [
                         {
                             "name": "Earthquake",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "SolarEclipse",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "StormSurge",
@@ -1509,7 +1754,8 @@
                     "children": [
                         {
                             "name": "AcademicConference",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Attack",
@@ -1520,7 +1766,8 @@
                         },
                         {
                             "name": "Convention",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Election",
@@ -1531,11 +1778,13 @@
                         },
                         {
                             "name": "FilmFestival",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "HistoricalEvent",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Meeting",
@@ -1553,7 +1802,8 @@
                         },
                         {
                             "name": "MusicFestival",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Rebellion",
@@ -1581,11 +1831,13 @@
                                 },
                                 {
                                     "name": "FootballMatch",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "GrandPrix",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "InternationalFootballLeagueEvent",
@@ -1593,7 +1845,8 @@
                                 },
                                 {
                                     "name": "MixedMartialArtsEvent",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "NationalFootballLeagueEvent",
@@ -1604,53 +1857,65 @@
                                     "children": [
                                         {
                                             "name": "OlympicEvent",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Race",
                                     "children": [
                                         {
                                             "name": "CyclingRace",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "HorseRace",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "MotorRace",
                                             "children": []
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Tournament",
                                     "children": [
                                         {
                                             "name": "GolfTournament",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "SoccerTournament",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "TennisTournament",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "WomensTennisAssociationTournament",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "WrestlingEvent",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         }
                     ]
                 }
@@ -1681,11 +1946,13 @@
                     "children": [
                         {
                             "name": "Beer",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Vodka",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Wine",
@@ -1694,15 +1961,19 @@
                                     "name": "ControlledDesignationOfOriginWine",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Cheese",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
-            ]
+            ],
+            "ontology_only": true
         },
         {
             "name": "GeneLocation",
@@ -1729,7 +2000,8 @@
             "children": [
                 {
                     "name": "TopLevelDomain",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
             ]
         },
@@ -1741,9 +2013,11 @@
             "children": [
                 {
                     "name": "ProgrammingLanguage",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
-            ]
+            ],
+            "ontology_only": true
         },
         {
             "name": "MeanOfTransportation",
@@ -1759,15 +2033,18 @@
                             "name": "MilitaryAircraft",
                             "children": []
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Automobile",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Locomotive",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "MilitaryVehicle",
@@ -1775,7 +2052,8 @@
                 },
                 {
                     "name": "Motorcycle",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "On-SiteTransportation",
@@ -1797,15 +2075,18 @@
                 },
                 {
                     "name": "Rocket",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Ship",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "SpaceShuttle",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "SpaceStation",
@@ -1816,11 +2097,13 @@
                 },
                 {
                     "name": "Spacecraft",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Train",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "TrainCarriage",
@@ -1854,11 +2137,13 @@
             "children": [
                 {
                     "name": "GivenName",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Surname",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
             ]
         },
@@ -1871,11 +2156,13 @@
             "children": [
                 {
                     "name": "PoliticalFunction",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Profession",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
             ]
         },
@@ -1895,112 +2182,139 @@
                             "children": [
                                 {
                                     "name": "RollerCoaster",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "WaterRide",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Arena",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Building",
                             "children": [
                                 {
                                     "name": "Casino",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Castle",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Factory",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "HistoricBuilding",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Hospital",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Hotel",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Museum",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Prison",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "ReligiousBuilding",
                                     "children": [
                                         {
                                             "name": "Church",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Monastery",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Mosque",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Shrine",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Synagogue",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Temple",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Restaurant",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "ShoppingMall",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Skyscraper",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Venue",
                                     "children": [
                                         {
                                             "name": "Cinema",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Stadium",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Theatre",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Infrastructure",
@@ -2008,11 +2322,13 @@
                             "children": [
                                 {
                                     "name": "Airport",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Dam",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Dike",
@@ -2020,15 +2336,18 @@
                                 },
                                 {
                                     "name": "LaunchPad",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Lock",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Port",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "PowerStation",
@@ -2037,7 +2356,8 @@
                                             "name": "NuclearPowerStation",
                                             "children": []
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "RestArea",
@@ -2049,31 +2369,38 @@
                                     "children": [
                                         {
                                             "name": "Bridge",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "RailwayLine",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "RailwayTunnel",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Road",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "RoadJunction",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "RoadTunnel",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "WaterwayTunnel",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
                                     ]
                                 },
@@ -2086,7 +2413,8 @@
                                         },
                                         {
                                             "name": "RailwayStation",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "RouteStop",
@@ -2096,7 +2424,8 @@
                                             "name": "TramStation",
                                             "children": []
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 }
                             ]
                         },
@@ -2107,7 +2436,8 @@
                                     "name": "Fort",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Mill",
@@ -2118,7 +2448,8 @@
                                 },
                                 {
                                     "name": "Watermill",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "WindMotor",
@@ -2126,9 +2457,11 @@
                                 },
                                 {
                                     "name": "Windmill",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Monument",
@@ -2139,13 +2472,16 @@
                                 },
                                 {
                                     "name": "Memorial",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Pyramid",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "SportFacility",
@@ -2153,20 +2489,24 @@
                             "children": [
                                 {
                                     "name": "CricketGround",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "GolfCourse",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "RaceTrack",
                                     "children": [
                                         {
                                             "name": "Racecourse",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "SkiArea",
@@ -2175,34 +2515,40 @@
                                             "name": "SkiResort",
                                             "children": []
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 }
                             ]
                         },
                         {
                             "name": "Square",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Tower",
                             "children": [
                                 {
                                     "name": "Lighthouse",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "WaterTower",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Tunnel",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Zoo",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
                     ]
                 },
@@ -2212,15 +2558,18 @@
                     "children": [
                         {
                             "name": "Asteroid",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Constellation",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Galaxy",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Nebula",
@@ -2228,7 +2577,8 @@
                         },
                         {
                             "name": "Planet",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Satellite",
@@ -2237,7 +2587,8 @@
                                     "name": "ArtificialSatellite",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Star",
@@ -2246,7 +2597,8 @@
                                     "name": "BrownDwarf",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Swarm",
@@ -2265,11 +2617,13 @@
                 },
                 {
                     "name": "Cemetery",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "ConcentrationCamp",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "CountrySeat",
@@ -2277,11 +2631,13 @@
                 },
                 {
                     "name": "Garden",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "HistoricPlace",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Mine",
@@ -2290,7 +2646,8 @@
                             "name": "CoalPit",
                             "children": []
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "NaturalPlace",
@@ -2298,45 +2655,55 @@
                     "children": [
                         {
                             "name": "Archipelago",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Beach",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "BodyOfWater",
                             "children": [
                                 {
                                     "name": "Bay",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Lake",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Ocean",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Sea",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Stream",
                                     "children": [
                                         {
                                             "name": "Canal",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "River",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Cape",
@@ -2344,7 +2711,8 @@
                         },
                         {
                             "name": "Cave",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Crater",
@@ -2353,11 +2721,13 @@
                                     "name": "LunarCrater",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Desert",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Forest",
@@ -2365,7 +2735,8 @@
                         },
                         {
                             "name": "Glacier",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "HotSpring",
@@ -2373,11 +2744,13 @@
                         },
                         {
                             "name": "Mountain",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "MountainPass",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "MountainRange",
@@ -2385,17 +2758,20 @@
                         },
                         {
                             "name": "Valley",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Volcano",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
                     ]
                 },
                 {
                     "name": "Park",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "PopulatedPlace",
@@ -2403,7 +2779,8 @@
                     "children": [
                         {
                             "name": "Agglomeration",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Community",
@@ -2411,7 +2788,8 @@
                         },
                         {
                             "name": "Continent",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Country",
@@ -2420,7 +2798,8 @@
                                     "name": "HistoricalCountry",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "GatedCommunity",
@@ -2435,13 +2814,16 @@
                             "children": [
                                 {
                                     "name": "Atoll",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Locality",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Region",
@@ -2454,15 +2836,18 @@
                                             "children": [
                                                 {
                                                     "name": "Deanery",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "Diocese",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "Parish",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 }
                                             ]
                                         },
@@ -2471,7 +2856,8 @@
                                             "children": [
                                                 {
                                                     "name": "Arrondissement",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "Canton",
@@ -2484,7 +2870,8 @@
                                                             "name": "OverseasDepartment",
                                                             "children": []
                                                         }
-                                                    ]
+                                                    ],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "District",
@@ -2493,7 +2880,8 @@
                                                             "name": "HistoricalDistrict",
                                                             "children": []
                                                         }
-                                                    ]
+                                                    ],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "DistrictWaterBoard",
@@ -2501,20 +2889,24 @@
                                                 },
                                                 {
                                                     "name": "MicroRegion",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "Municipality",
                                                     "children": [
                                                         {
                                                             "name": "FormerMunicipality",
-                                                            "children": []
+                                                            "children": [],
+                                                            "ontology_only": true
                                                         }
-                                                    ]
+                                                    ],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "Prefecture",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "Province",
@@ -2523,15 +2915,18 @@
                                                             "name": "HistoricalProvince",
                                                             "children": []
                                                         }
-                                                    ]
+                                                    ],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "Regency",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 },
                                                 {
                                                     "name": "SubMunicipality",
-                                                    "children": []
+                                                    "children": [],
+                                                    "ontology_only": true
                                                 }
                                             ]
                                         },
@@ -2544,7 +2939,8 @@
                                                 }
                                             ]
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "HistoricalRegion",
@@ -2554,7 +2950,8 @@
                                     "name": "NaturalRegion",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Settlement",
@@ -2564,17 +2961,20 @@
                                     "children": [
                                         {
                                             "name": "Capital",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "CapitalOfRegion",
                                             "children": []
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "CityDistrict",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "HistoricalSettlement",
@@ -2582,21 +2982,26 @@
                                 },
                                 {
                                     "name": "Town",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Village",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "State",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Street",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Territory",
@@ -2605,25 +3010,30 @@
                                     "name": "OldTerritory",
                                     "children": []
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         }
                     ]
                 },
                 {
                     "name": "ProtectedArea",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "SiteOfSpecialScientificInterest",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "WineRegion",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "WorldHeritageSite",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 }
             ]
         },
@@ -2646,11 +3056,13 @@
             "children": [
                 {
                     "name": "Archaea",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Bacteria",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Eukaryote",
@@ -2660,27 +3072,33 @@
                             "children": [
                                 {
                                     "name": "Amphibian",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Arachnid",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Bird",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Crustacean",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Fish",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Insect",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Mammal",
@@ -2691,27 +3109,34 @@
                                         },
                                         {
                                             "name": "Dog",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         },
                                         {
                                             "name": "Horse",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Mollusca",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Reptile",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Fungus",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Plant",
@@ -2722,26 +3147,31 @@
                                 },
                                 {
                                     "name": "Conifer",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "CultivatedVariety",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Cycad",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Fern",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "FloweringPlant",
                                     "children": [
                                         {
                                             "name": "Grape",
-                                            "children": []
+                                            "children": [],
+                                            "ontology_only": true
                                         }
                                     ]
                                 },
@@ -2755,17 +3185,22 @@
                                 },
                                 {
                                     "name": "GreenAlga",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Moss",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 }
-            ]
+            ],
+            "ontology_only": true
         },
         {
             "name": "SportsSeason",
@@ -2776,7 +3211,8 @@
             "children": [
                 {
                     "name": "MotorsportSeason",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "SportsTeamSeason",
@@ -2784,24 +3220,29 @@
                     "children": [
                         {
                             "name": "BaseballSeason",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "FootballLeagueSeason",
                             "children": [
                                 {
                                     "name": "NationalFootballLeagueSeason",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "NCAATeamSeason",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "SoccerClubSeason",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "SoccerLeagueSeason",
@@ -2861,7 +3302,8 @@
                 },
                 {
                     "name": "Fashion",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Genre",
@@ -2880,13 +3322,16 @@
                         },
                         {
                             "name": "MusicGenre",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Ideology",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "MathematicalConcept",
@@ -2906,7 +3351,8 @@
                 },
                 {
                     "name": "Standard",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "SystemOfLaw",
@@ -2914,11 +3360,13 @@
                 },
                 {
                     "name": "Tax",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "Taxon",
-                    "children": []
+                    "children": [],
+                    "ontology_only": true
                 },
                 {
                     "name": "TheologicalConcept",
@@ -2963,11 +3411,13 @@
                             "children": [
                                 {
                                     "name": "SupremeCourtOfTheUnitedStatesCase",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
                             ]
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 }
             ]
         },
@@ -2983,13 +3433,16 @@
                     "children": [
                         {
                             "name": "Painting",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Sculpture",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Cartoon",
@@ -2999,13 +3452,16 @@
                     "children": [
                         {
                             "name": "Anime",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "HollywoodCartoon",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "CollectionOfValuables",
@@ -3015,7 +3471,8 @@
                     "children": [
                         {
                             "name": "Archive",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
                     ]
                 },
@@ -3027,9 +3484,11 @@
                     "children": [
                         {
                             "name": "BiologicalDatabase",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "Film",
@@ -3054,7 +3513,8 @@
                     "children": [
                         {
                             "name": "Album",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "ClassicalMusicComposition",
@@ -3086,7 +3546,8 @@
                         },
                         {
                             "name": "Single",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Song",
@@ -3096,9 +3557,11 @@
                             "children": [
                                 {
                                     "name": "EurovisionSongContestEntry",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         }
                     ]
                 },
@@ -3114,9 +3577,11 @@
                     "children": [
                         {
                             "name": "VideoGame",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         }
-                    ]
+                    ],
+                    "ontology_only": true
                 },
                 {
                     "name": "TelevisionEpisode",
@@ -3160,38 +3625,47 @@
                                             "name": "LightNovel",
                                             "children": []
                                         }
-                                    ]
+                                    ],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Comic",
                             "children": [
                                 {
                                     "name": "ComicStrip",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Manga",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Manhua",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Manhwa",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 }
-                            ]
+                            ],
+                            "ontology_only": true
                         },
                         {
                             "name": "Drama",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Law",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Letter",
@@ -3210,15 +3684,18 @@
                             "children": [
                                 {
                                     "name": "AcademicJournal",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Magazine",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "Newspaper",
-                                    "children": []
+                                    "children": [],
+                                    "ontology_only": true
                                 },
                                 {
                                     "name": "UndergroundJournal",
@@ -3228,7 +3705,8 @@
                         },
                         {
                             "name": "Play",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true
                         },
                         {
                             "name": "Poem",
