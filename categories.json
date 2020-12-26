@@ -6,13 +6,13 @@
         {
             "name": "Activity",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": [
                 {
                     "name": "Game",
                     "additional_parents": [
-                        "Group"
+                        "Group", "Concretum"
                     ],
                     "children": [
                         {
@@ -55,14 +55,14 @@
             "name": "Agent",
             "wrapper": true,
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Concretum"
             ],
             "children": [
                 {
                     "name": "Deity",
                     "children": [],
                     "additional_parents": [
-                        "Creature"
+                        "Creature", "Abstractum"
                     ],
                     "ontology_only": true,
                     "label": "deity@en"
@@ -552,6 +552,9 @@
                                 }
                             ],
                             "ontology_only": true,
+                            "additional_parents": [
+                                "Abstractum"
+                            ],
                             "label": "sports league@en"
                         },
                         {
@@ -631,6 +634,9 @@
                             "name": "TradeUnion",
                             "children": [],
                             "ontology_only": true,
+                            "additional_parents": [
+                                "Abstractum"
+                            ],
                             "label": "trade union@en"
                         }
                     ],
@@ -1681,13 +1687,16 @@
         {
             "name": "Algorithm",
             "children": [],
+            "additional_parents": [
+                "Abstractum"
+            ],
             "label": "Algorithm@en"
         },
         {
             "name": "AnatomicalStructure",
             "wrapper": true,
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"
             ],
             "children": [
                 {
@@ -1754,7 +1763,7 @@
         {
             "name": "Award",
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"
             ],
             "children": [
                 {
@@ -1775,7 +1784,7 @@
         {
             "name": "Biomolecule",
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"
             ],
             "children": [
                 {
@@ -1830,21 +1839,21 @@
         {
             "name": "Blazon",
             "additional_parents": [
-                "Unicum"
+                "Unicum" ,"Concretum"
             ],
             "children": []
         },
         {
             "name": "Browser",
             "additional_parents": [
-                "Unicum"
+                "Unicum" ,"Concretum"
             ],
             "children": []
         },
         {
             "name": "ChemicalSubstance",
             "additional_parents": [
-                "Group"
+                "Group" ,"Concretum"
             ],
             "wrapper": true,
             "children": [
@@ -1895,28 +1904,28 @@
         {
             "name": "Cipher",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Concretum"
             ],
             "children": []
         },
         {
             "name": "Colour",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": []
         },
         {
             "name": "Currency",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Concretum"
             ],
             "children": []
         },
         {
             "name": "Device",
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"
             ],
             "children": [
                 {
@@ -2006,14 +2015,14 @@
         {
             "name": "Diploma",
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"
             ],
             "children": []
         },
         {
             "name": "Disease",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Concretum"
             ],
             "children": []
         },
@@ -2276,26 +2285,29 @@
                         }
                     ]
                 }
+            ],
+            "additional_parents": [
+                "Concretum"
             ]
         },
         {
             "name": "FileSystem",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": []
         },
         {
             "name": "Flag",
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"
             ],
             "children": []
         },
         {
             "name": "Food",
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"    
             ],
             "children": [
                 {
@@ -2342,7 +2354,7 @@
         {
             "name": "GeneLocation",
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"
             ],
             "children": [
                 {
@@ -2362,7 +2374,7 @@
             "name": "Identifier",
             "wrapper": true,
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Concretum"
             ],
             "children": [
                 {
@@ -2376,7 +2388,7 @@
         {
             "name": "Language",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": [
                 {
@@ -2393,7 +2405,7 @@
             "name": "MeanOfTransportation",
             "wrapper": true,
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"
             ],
             "children": [
                 {
@@ -2504,21 +2516,21 @@
         {
             "name": "MedicalSpecialty",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Concretum"
             ],
             "children": []
         },
         {
             "name": "Medicine",
             "additional_parents": [
-                "Group"
+                "Group", "Concretum"
             ],
             "children": []
         },
         {
             "name": "Name",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": [
                 {
@@ -2540,7 +2552,7 @@
             "name": "PersonFunction",
             "wrapper": true,
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": [
                 {
@@ -2561,7 +2573,7 @@
             "name": "Place",
             "wrapper": true,
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Concretum"
             ],
             "children": [
                 {
@@ -3597,12 +3609,15 @@
         {
             "name": "Protocol",
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": []
         },
         {
             "name": "PublicService",
+            "additional_parents": [
+                "Abstractum"
+            ],
             "children": []
         },
         {
@@ -3793,7 +3808,7 @@
             "name": "SportsSeason",
             "wrapper": true,
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": [
                 {
@@ -3849,13 +3864,16 @@
         {
             "name": "Tank",
             "children": [],
+            "additional_parents": [
+                "Concretum"
+            ],
             "label": "Tank@en"
         },
         {
             "name": "TimePeriod",
             "wrapper": true,
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": [
                 {
@@ -3889,7 +3907,7 @@
             "name": "TopicalConcept",
             "wrapper": true,
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Abstractum"
             ],
             "children": [
                 {
@@ -4021,7 +4039,7 @@
             "name": "UnitOfWork",
             "wrapper": true,
             "additional_parents": [
-                "Unicum"
+                "Unicum", "Concretum"
             ],
             "children": [
                 {
@@ -4400,6 +4418,9 @@
                         }
                     ]
                 }
+            ],
+            "additional_parents": [
+                "Concretum"
             ]
         }
     ]
@@ -4415,5 +4436,31 @@
 {
     "name": "Creature",
     "children": []
+},
+{
+    "name": "Noun",
+    "aliases": [
+        "Substantive"
+    ],
+    "children": [
+        {
+            "name": "Abstractum",
+            "children": [],
+            "label": "abstract noun@en",
+            "aliases": [
+                "Abstract object"
+            ]
+        },
+        {
+            "name": "Concretum",
+            "children": [],
+            "label": "concrete noun@en",
+            "aliases": [
+                "Physical body",
+                "Physical entity",
+                "Material object"
+            ]
+        }
+    ]
 }
 ]
