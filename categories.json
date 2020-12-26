@@ -26,10 +26,6 @@
                     ]
                 },
                 {
-                    "name": "Sales",
-                    "children": []
-                },
-                {
                     "name": "Sport",
                     "children": [
                         {
@@ -453,10 +449,6 @@
                                     "children": []
                                 }
                             ]
-                        },
-                        {
-                            "name": "TermOfOffice",
-                            "children": []
                         },
                         {
                             "name": "TradeUnion",
@@ -973,10 +965,6 @@
                             "children": []
                         },
                         {
-                            "name": "Man",
-                            "children": []
-                        },
-                        {
                             "name": "MemberResistanceMovement",
                             "children": []
                         },
@@ -1003,15 +991,6 @@
                         {
                             "name": "OfficeHolder",
                             "children": []
-                        },
-                        {
-                            "name": "OrganisationMember",
-                            "children": [
-                                {
-                                    "name": "SportsTeamMember",
-                                    "children": []
-                                }
-                            ]
                         },
                         {
                             "name": "Philosopher",
@@ -1172,10 +1151,6 @@
                             "children": []
                         },
                         {
-                            "name": "Woman",
-                            "children": []
-                        },
-                        {
                             "name": "Writer",
                             "children": [
                                 {
@@ -1210,10 +1185,6 @@
         },
         {
             "name": "Algorithm",
-            "children": []
-        },
-        {
-            "name": "Altitude",
             "children": []
         },
         {
@@ -1264,10 +1235,6 @@
                     "children": []
                 }
             ]
-        },
-        {
-            "name": "Area",
-            "children": []
         },
         {
             "name": "Award",
@@ -1341,10 +1308,6 @@
             "children": []
         },
         {
-            "name": "ChartsPlacements",
-            "children": []
-        },
-        {
             "name": "ChemicalSubstance",
             "additional_parents": [
                 "Group"
@@ -1404,14 +1367,6 @@
             "children": []
         },
         {
-            "name": "Demographics",
-            "children": []
-        },
-        {
-            "name": "Depth",
-            "children": []
-        },
-        {
             "name": "Device",
             "additional_parents": [
                 "Group"
@@ -1442,10 +1397,6 @@
                             "children": []
                         }
                     ]
-                },
-                {
-                    "name": "InformationAppliance",
-                    "children": []
                 },
                 {
                     "name": "Instrument",
@@ -1489,10 +1440,6 @@
             "children": []
         },
         {
-            "name": "ElectionDiagram",
-            "children": []
-        },
-        {
             "name": "EthnicGroup",
             "additional_parents": [
                 "Unicum"
@@ -1508,18 +1455,6 @@
                     "children": [
                         {
                             "name": "Contest",
-                            "children": []
-                        }
-                    ]
-                },
-                {
-                    "name": "LifeCycleEvent",
-                    "additional_parents": [
-                        "Group"
-                    ],
-                    "children": [
-                        {
-                            "name": "PersonalEvent",
                             "children": []
                         }
                     ]
@@ -1777,14 +1712,6 @@
             ]
         },
         {
-            "name": "GrossDomesticProduct",
-            "children": []
-        },
-        {
-            "name": "GrossDomesticProductPerCapita",
-            "children": []
-        },
-        {
             "name": "Identifier",
             "wrapper": true,
             "additional_parents": [
@@ -1805,15 +1732,6 @@
             "children": [
                 {
                     "name": "ProgrammingLanguage",
-                    "children": []
-                }
-            ]
-        },
-        {
-            "name": "List",
-            "children": [
-                {
-                    "name": "TrackList",
                     "children": []
                 }
             ]
@@ -1904,10 +1822,6 @@
                     "children": []
                 }
             ]
-        },
-        {
-            "name": "Media",
-            "children": []
         },
         {
             "name": "MedicalSpecialty",
@@ -2705,13 +2619,6 @@
             ]
         },
         {
-            "name": "Population",
-            "additional_parents": [
-                "Unicum"
-            ],
-            "children": []
-        },
-        {
             "name": "Protocol",
             "additional_parents": [
                 "Unicum"
@@ -2720,10 +2627,6 @@
         },
         {
             "name": "PublicService",
-            "children": []
-        },
-        {
-            "name": "Relationship",
             "children": []
         },
         {
@@ -2856,19 +2759,6 @@
             ]
         },
         {
-            "name": "SportCompetitionResult",
-            "children": [
-                {
-                    "name": "OlympicResult",
-                    "children": []
-                },
-                {
-                    "name": "SnookerWorldRanking",
-                    "children": []
-                }
-            ]
-        },
-        {
             "name": "SportsSeason",
             "wrapper": true,
             "additional_parents": [
@@ -2913,18 +2803,6 @@
             ]
         },
         {
-            "name": "Spreadsheet",
-            "children": []
-        },
-        {
-            "name": "StarCluster",
-            "children": []
-        },
-        {
-            "name": "Statistic",
-            "children": []
-        },
-        {
             "name": "Tank",
             "children": []
         },
@@ -2935,15 +2813,6 @@
                 "Unicum"
             ],
             "children": [
-                {
-                    "name": "CareerStation",
-                    "children": [
-                        {
-                            "name": "MilitaryService",
-                            "children": []
-                        }
-                    ]
-                },
                 {
                     "name": "GeologicalPeriod",
                     "children": []
@@ -2962,22 +2831,6 @@
                 },
                 {
                     "name": "ProtohistoricalPeriod",
-                    "children": []
-                },
-                {
-                    "name": "Reign",
-                    "children": []
-                },
-                {
-                    "name": "Tenure",
-                    "children": []
-                },
-                {
-                    "name": "Year",
-                    "children": []
-                },
-                {
-                    "name": "YearInSpaceflight",
                     "children": []
                 }
             ]
@@ -3106,25 +2959,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "name": "Project",
-                    "children": [
-                        {
-                            "name": "ResearchProject",
-                            "children": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Unknown",
-            "wrapper": true,
-            "children": [
-                {
-                    "name": "WikimediaTemplate",
-                    "children": []
                 }
             ]
         },
@@ -3189,35 +3023,6 @@
                     ]
                 },
                 {
-                    "name": "Document",
-                    "additional_parents": [
-                        "Group"
-                    ],
-                    "children": [
-                        {
-                            "name": "File",
-                            "children": []
-                        },
-                        {
-                            "name": "Image",
-                            "children": [
-                                {
-                                    "name": "MovingImage",
-                                    "children": []
-                                },
-                                {
-                                    "name": "StillImage",
-                                    "children": []
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Sound",
-                            "children": []
-                        }
-                    ]
-                },
-                {
                     "name": "Film",
                     "additional_parents": [
                         "Group"
@@ -3240,13 +3045,6 @@
                     "children": [
                         {
                             "name": "Album",
-                            "children": []
-                        },
-                        {
-                            "name": "ArtistDiscography",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
                             "children": []
                         },
                         {
@@ -3343,19 +3141,6 @@
                     "name": "WrittenWork",
                     "wrapper": true,
                     "children": [
-                        {
-                            "name": "Annotation",
-                            "children": [
-                                {
-                                    "name": "Reference",
-                                    "children": []
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Article",
-                            "children": []
-                        },
                         {
                             "name": "Book",
                             "children": [
