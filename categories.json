@@ -1841,14 +1841,16 @@
             "additional_parents": [
                 "Unicum" ,"Concretum"
             ],
-            "children": []
+            "children": [],
+            "label": "Blazon@en"
         },
         {
             "name": "Browser",
             "additional_parents": [
                 "Unicum" ,"Concretum"
             ],
-            "children": []
+            "children": [],
+            "label": "Browser@en"
         },
         {
             "name": "ChemicalSubstance",
@@ -1906,21 +1908,26 @@
             "additional_parents": [
                 "Unicum", "Concretum"
             ],
-            "children": []
+            "children": [],
+            "label": "Cipher@en"
         },
         {
             "name": "Colour",
             "additional_parents": [
                 "Unicum", "Abstractum"
             ],
-            "children": []
+            "children": [],
+            "ontology_only": true,
+            "label": "colour@en"
         },
         {
             "name": "Currency",
             "additional_parents": [
                 "Unicum", "Concretum"
             ],
-            "children": []
+            "children": [],
+            "ontology_only": true,
+            "label": "currency@en"
         },
         {
             "name": "Device",
@@ -2032,21 +2039,27 @@
             "additional_parents": [
                 "Group", "Concretum"
             ],
-            "children": []
+            "children": [],
+            "ontology_only": true,
+            "label": "diploma@en"
         },
         {
             "name": "Disease",
             "additional_parents": [
                 "Unicum", "Concretum"
             ],
-            "children": []
+            "children": [],
+            "ontology_only": true,
+            "label": "disease@en"
         },
         {
             "name": "EthnicGroup",
             "additional_parents": [
                 "Unicum"
             ],
-            "children": []
+            "children": [],
+            "ontology_only": true,
+            "label": "ethnic group@en"
         },
         {
             "name": "Event",
@@ -2096,14 +2109,17 @@
                     "additional_parents": [
                         "Unicum"
                     ],
-                    "children": []
+                    "children": [],
+                    "ontology_only": true,
+                    "label": "Outbreak@en"
                 },
                 {
                     "name": "PenaltyShootOut",
                     "additional_parents": [
                         "Unicum"
                     ],
-                    "children": []
+                    "children": [],
+                    "label": "penalty shoot-out@en"
                 },
                 {
                     "name": "SocietalEvent",
@@ -2120,7 +2136,9 @@
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "attack@en"
                         },
                         {
                             "name": "Convention",
@@ -2133,7 +2151,9 @@
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "Election@en"
                         },
                         {
                             "name": "FilmFestival",
@@ -2152,14 +2172,18 @@
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "meeting@en"
                         },
                         {
                             "name": "MilitaryConflict",
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "military conflict@en"
                         },
                         {
                             "name": "MusicFestival",
@@ -2172,14 +2196,18 @@
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "rebellion@en"
                         },
                         {
                             "name": "SpaceMission",
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "space mission@en"
                         },
                         {
                             "name": "SportsEvent",
@@ -2310,14 +2338,17 @@
             "additional_parents": [
                 "Unicum", "Abstractum"
             ],
-            "children": []
+            "children": [],
+            "label": "File system@en"
         },
         {
             "name": "Flag",
             "additional_parents": [
                 "Group", "Concretum"
             ],
-            "children": []
+            "children": [],
+            "ontology_only": true,
+            "label": "flag@en"
         },
         {
             "name": "Food",
@@ -2502,7 +2533,9 @@
                     "additional_parents": [
                         "Unicum"
                     ],
-                    "children": []
+                    "children": [],
+                    "ontology_only": true,
+                    "label": "space station@en"
                 },
                 {
                     "name": "Spacecraft",
@@ -2533,14 +2566,18 @@
             "additional_parents": [
                 "Unicum", "Concretum"
             ],
-            "children": []
+            "children": [],
+            "ontology_only": true,
+            "label": "medical specialty@en"
         },
         {
             "name": "Medicine",
             "additional_parents": [
                 "Group", "Concretum"
             ],
-            "children": []
+            "children": [],
+            "ontology_only": true,
+            "label": "Medicine@en"
         },
         {
             "name": "Name",
@@ -3626,14 +3663,8 @@
             "additional_parents": [
                 "Unicum", "Abstractum"
             ],
-            "children": []
-        },
-        {
-            "name": "PublicService",
-            "additional_parents": [
-                "Abstractum"
-            ],
-            "children": []
+            "children": [],
+            "label": "Protocol@en"
         },
         {
             "name": "Species",
@@ -4162,14 +4193,17 @@
                     "additional_parents": [
                         "Group"
                     ],
-                    "children": []
+                    "children": [],
+                    "ontology_only": true,
+                    "label": "movie@en"
                 },
                 {
                     "name": "LineOfFashion",
                     "additional_parents": [
                         "Unicum"
                     ],
-                    "children": []
+                    "children": [],
+                    "label": "line of fashion@en"
                 },
                 {
                     "name": "MusicalWork",
@@ -4189,28 +4223,35 @@
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "classical music composition@en"
                         },
                         {
                             "name": "Musical",
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "musical@en"
                         },
                         {
                             "name": "NationalAnthem",
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "label": "National anthem@en"
                         },
                         {
                             "name": "Opera",
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "opera@en"
                         },
                         {
                             "name": "Single",
@@ -4241,7 +4282,9 @@
                     "additional_parents": [
                         "Unicum"
                     ],
-                    "children": []
+                    "children": [],
+                    "ontology_only": true,
+                    "label": "radio program@en"
                 },
                 {
                     "name": "Software",
@@ -4261,28 +4304,36 @@
                     "additional_parents": [
                         "Unicum"
                     ],
-                    "children": []
+                    "children": [],
+                    "ontology_only": true,
+                    "label": "television episode@en"
                 },
                 {
                     "name": "TelevisionSeason",
                     "additional_parents": [
                         "Unicum"
                     ],
-                    "children": []
+                    "children": [],
+                    "ontology_only": true,
+                    "label": "television season@en"
                 },
                 {
                     "name": "TelevisionShow",
                     "additional_parents": [
                         "Unicum"
                     ],
-                    "children": []
+                    "children": [],
+                    "ontology_only": true,
+                    "label": "television show@en"
                 },
                 {
                     "name": "Website",
                     "additional_parents": [
                         "Unicum"
                     ],
-                    "children": []
+                    "children": [],
+                    "ontology_only": true,
+                    "label": "website@en"
                 },
                 {
                     "name": "WrittenWork",
@@ -4355,11 +4406,9 @@
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
-                        },
-                        {
-                            "name": "MultiVolumePublication",
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "letter@en"
                         },
                         {
                             "name": "PeriodicalLiterature",
@@ -4401,38 +4450,18 @@
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
-                        },
-                        {
-                            "name": "Quote",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": []
-                        },
-                        {
-                            "name": "Resume",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": []
-                        },
-                        {
-                            "name": "StatedResolution",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": []
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "poem@en"
                         },
                         {
                             "name": "Treaty",
                             "additional_parents": [
                                 "Unicum"
                             ],
-                            "children": []
+                            "children": [],
+                            "label": "treaty@en"
                         }
-                    ]
-                }
             ],
             "additional_parents": [
                 "Concretum"
