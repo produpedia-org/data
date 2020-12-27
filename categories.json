@@ -4479,14 +4479,17 @@
 },
 {
     "name": "Unicum",
+    "wrapper": true,
     "children": []
 },
 {
     "name": "Multitude",
+    "wrapper": true,
     "children": []
 },
 {
     "name": "Creature",
+    "wrapper": true,
     "additional_parents": [
         "Movable"
     ],
@@ -4494,12 +4497,14 @@
 },
 {
     "name": "Noun",
+    "wrapper": true,
     "aliases": [
         "Substantive"
     ],
     "children": [
         {
             "name": "Abstractum",
+            "wrapper": true,
             "children": [],
             "label": "abstract noun@en",
             "aliases": [
@@ -4509,10 +4514,12 @@
         {
             "name": "Concretum",
             "label": "concrete noun@en",
+            "wrapper": true,
             "children": [
                 {
                     "name": "Body",
                     "label": "",
+                    "wrapper": true,
                     "aliases": [
                         "Physical body",
                         "Physical entity",
@@ -4522,6 +4529,7 @@
                         {
                             "name": "Movable",
                             "label": "movable noun@en",
+                            "wrapper": true,
                             "aliases": [
                                 "Not-fixed in place body"
                             ]
