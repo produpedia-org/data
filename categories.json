@@ -12,7 +12,7 @@
                 {
                     "name": "Game",
                     "additional_parents": [
-                        "Group", "Movable"
+                        "Multitude", "Movable"
                     ],
                     "children": [
                         {
@@ -1696,7 +1696,7 @@
             "name": "AnatomicalStructure",
             "wrapper": true,
             "additional_parents": [
-                "Group", "Movable"
+                "Multitude", "Movable"
             ],
             "children": [
                 {
@@ -1763,7 +1763,7 @@
         {
             "name": "Award",
             "additional_parents": [
-                "Group", "Movable"
+                "Multitude", "Movable"
             ],
             "children": [
                 {
@@ -1784,7 +1784,7 @@
         {
             "name": "Biomolecule",
             "additional_parents": [
-                "Group", "Movable"
+                "Multitude", "Movable"
             ],
             "children": [
                 {
@@ -1855,7 +1855,7 @@
         {
             "name": "ChemicalSubstance",
             "additional_parents": [
-                "Group" ,"Movable"
+                "Multitude" ,"Movable"
             ],
             "wrapper": true,
             "children": [
@@ -1932,7 +1932,7 @@
         {
             "name": "Device",
             "additional_parents": [
-                "Group", "Movable"
+                "Multitude", "Movable"
             ],
             "children": [
                 {
@@ -2037,7 +2037,7 @@
         {
             "name": "Diploma",
             "additional_parents": [
-                "Group", "Movable"
+                "Multitude", "Movable"
             ],
             "children": [],
             "ontology_only": true,
@@ -2344,7 +2344,7 @@
         {
             "name": "Flag",
             "additional_parents": [
-                "Group", "Movable"
+                "Multitude", "Movable"
             ],
             "children": [],
             "ontology_only": true,
@@ -2353,7 +2353,7 @@
         {
             "name": "Food",
             "additional_parents": [
-                "Group", "Movable"    
+                "Multitude", "Movable"    
             ],
             "children": [
                 {
@@ -2400,7 +2400,7 @@
         {
             "name": "GeneLocation",
             "additional_parents": [
-                "Group", "Concretum"
+                "Multitude", "Concretum"
             ],
             "children": [
                 {
@@ -2451,7 +2451,7 @@
             "name": "MeanOfTransportation",
             "wrapper": true,
             "additional_parents": [
-                "Group", "Movable"
+                "Multitude", "Movable"
             ],
             "children": [
                 {
@@ -2573,7 +2573,7 @@
         {
             "name": "Medicine",
             "additional_parents": [
-                "Group", "Movable"
+                "Multitude", "Movable"
             ],
             "children": [],
             "ontology_only": true,
@@ -3669,7 +3669,7 @@
         {
             "name": "Species",
             "additional_parents": [
-                "Group", "Creature"
+                "Multitude", "Creature"
             ],
             "children": [
                 {
@@ -4064,7 +4064,7 @@
                     "name": "Type",
                     "wrapper": true,
                     "additional_parents": [
-                        "Group"
+                        "Multitude"
                     ],
                     "children": [
                         {
@@ -4141,7 +4141,7 @@
                 {
                     "name": "Cartoon",
                     "additional_parents": [
-                        "Group"
+                        "Multitude"
                     ],
                     "children": [
                         {
@@ -4194,7 +4194,7 @@
                 {
                     "name": "Film",
                     "additional_parents": [
-                        "Group"
+                        "Multitude"
                     ],
                     "children": [],
                     "ontology_only": true,
@@ -4212,7 +4212,7 @@
                     "name": "MusicalWork",
                     "wrapper": true,
                     "additional_parents": [
-                        "Group"
+                        "Multitude"
                     ],
                     "children": [
                         {
@@ -4482,7 +4482,7 @@
     "children": []
 },
 {
-    "name": "Group",
+    "name": "Multitude",
     "children": []
 },
 {
