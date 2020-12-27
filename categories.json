@@ -2062,278 +2062,6 @@
             "label": "ethnic group@en"
         },
         {
-            "name": "Event",
-            "wrapper": true,
-            "additional_parents": [
-                "Concretum"
-            ],
-            "children": [
-                {
-                    "name": "Competition",
-                    "children": [
-                        {
-                            "name": "Contest",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "contest@en"
-                        }
-                    ],
-                    "ontology_only": true,
-                    "label": "competition@en"
-                },
-                {
-                    "name": "NaturalEvent",
-                    "wrapper": true,
-                    "additional_parents": [
-                        "Unicum"
-                    ],
-                    "children": [
-                        {
-                            "name": "Earthquake",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "earthquake@en"
-                        },
-                        {
-                            "name": "SolarEclipse",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "solar eclipse@en"
-                        },
-                        {
-                            "name": "StormSurge",
-                            "children": [],
-                            "label": "storm surge@en"
-                        }
-                    ]
-                },
-                {
-                    "name": "Outbreak",
-                    "additional_parents": [
-                        "Unicum"
-                    ],
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "Outbreak@en"
-                },
-                {
-                    "name": "PenaltyShootOut",
-                    "additional_parents": [
-                        "Unicum"
-                    ],
-                    "children": [],
-                    "label": "penalty shoot-out@en"
-                },
-                {
-                    "name": "SocietalEvent",
-                    "wrapper": true,
-                    "children": [
-                        {
-                            "name": "AcademicConference",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "academic conference@en"
-                        },
-                        {
-                            "name": "Attack",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "attack@en"
-                        },
-                        {
-                            "name": "Convention",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "convention@en"
-                        },
-                        {
-                            "name": "Election",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "Election@en"
-                        },
-                        {
-                            "name": "FilmFestival",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "film festival@en"
-                        },
-                        {
-                            "name": "HistoricalEvent",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "historical event@en"
-                        },
-                        {
-                            "name": "Meeting",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "meeting@en"
-                        },
-                        {
-                            "name": "MilitaryConflict",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "military conflict@en"
-                        },
-                        {
-                            "name": "MusicFestival",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "music festival@en"
-                        },
-                        {
-                            "name": "Rebellion",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "rebellion@en"
-                        },
-                        {
-                            "name": "SpaceMission",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "space mission@en"
-                        },
-                        {
-                            "name": "SportsEvent",
-                            "additional_parents": [
-                                "Unicum"
-                            ],
-                            "children": [
-                                {
-                                    "name": "CyclingCompetition",
-                                    "children": [],
-                                    "label": "cycling competition@en"
-                                },
-                                {
-                                    "name": "FootballMatch",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "football match@en"
-                                },
-                                {
-                                    "name": "GrandPrix",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "Grand Prix@en"
-                                },
-                                {
-                                    "name": "InternationalFootballLeagueEvent",
-                                    "children": [],
-                                    "label": "international football league event@en"
-                                },
-                                {
-                                    "name": "MixedMartialArtsEvent",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "mixed martial arts event@en"
-                                },
-                                {
-                                    "name": "NationalFootballLeagueEvent",
-                                    "children": [],
-                                    "label": "national football league event@en"
-                                },
-                                {
-                                    "name": "Olympics",
-                                    "children": [
-                                        {
-                                            "name": "OlympicEvent",
-                                            "children": [],
-                                            "ontology_only": true,
-                                            "label": "olympic event@en"
-                                        }
-                                    ],
-                                    "ontology_only": true,
-                                    "label": "olympics@en"
-                                },
-                                {
-                                    "name": "Race",
-                                    "children": [
-                                        {
-                                            "name": "CyclingRace",
-                                            "children": [],
-                                            "ontology_only": true,
-                                            "label": "cycling race@en"
-                                        },
-                                        {
-                                            "name": "HorseRace",
-                                            "children": [],
-                                            "ontology_only": true,
-                                            "label": "horse race@en"
-                                        },
-                                        {
-                                            "name": "MotorRace",
-                                            "children": [],
-                                            "label": "motor race@en"
-                                        }
-                                    ],
-                                    "ontology_only": true,
-                                    "label": "race@en"
-                                },
-                                {
-                                    "name": "Tournament",
-                                    "children": [
-                                        {
-                                            "name": "GolfTournament",
-                                            "children": [],
-                                            "ontology_only": true,
-                                            "label": "golf tournament@en"
-                                        },
-                                        {
-                                            "name": "SoccerTournament",
-                                            "children": [],
-                                            "ontology_only": true,
-                                            "label": "soccer tournoment@en"
-                                        },
-                                        {
-                                            "name": "TennisTournament",
-                                            "children": [],
-                                            "ontology_only": true,
-                                            "label": "tennis tournament@en"
-                                        },
-                                        {
-                                            "name": "WomensTennisAssociationTournament",
-                                            "children": [],
-                                            "ontology_only": true,
-                                            "label": "Women's Tennis Association tournament@en"
-                                        }
-                                    ],
-                                    "ontology_only": true,
-                                    "label": "tournament@en"
-                                },
-                                {
-                                    "name": "WrestlingEvent",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "wrestling event@en"
-                                }
-                            ],
-                            "ontology_only": true,
-                            "label": "sports event@en"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name": "FileSystem",
             "additional_parents": [
                 "Unicum", "Abstractum"
@@ -3889,6 +3617,278 @@
                     "name": "ProtohistoricalPeriod",
                     "children": [],
                     "label": "protohistorical period@en"
+                },
+                {
+                    "name": "Event",
+                    "wrapper": true,
+                    "additional_parents": [
+                        "Concretum"
+                    ],
+                    "children": [
+                        {
+                            "name": "Competition",
+                            "children": [
+                                {
+                                    "name": "Contest",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "contest@en"
+                                }
+                            ],
+                            "ontology_only": true,
+                            "label": "competition@en"
+                        },
+                        {
+                            "name": "NaturalEvent",
+                            "wrapper": true,
+                            "additional_parents": [
+                                "Unicum"
+                            ],
+                            "children": [
+                                {
+                                    "name": "Earthquake",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "earthquake@en"
+                                },
+                                {
+                                    "name": "SolarEclipse",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "solar eclipse@en"
+                                },
+                                {
+                                    "name": "StormSurge",
+                                    "children": [],
+                                    "label": "storm surge@en"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Outbreak",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "Outbreak@en"
+                        },
+                        {
+                            "name": "PenaltyShootOut",
+                            "additional_parents": [
+                                "Unicum"
+                            ],
+                            "children": [],
+                            "label": "penalty shoot-out@en"
+                        },
+                        {
+                            "name": "SocietalEvent",
+                            "wrapper": true,
+                            "children": [
+                                {
+                                    "name": "AcademicConference",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "academic conference@en"
+                                },
+                                {
+                                    "name": "Attack",
+                                    "additional_parents": [
+                                        "Unicum"
+                                    ],
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "attack@en"
+                                },
+                                {
+                                    "name": "Convention",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "convention@en"
+                                },
+                                {
+                                    "name": "Election",
+                                    "additional_parents": [
+                                        "Unicum"
+                                    ],
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "Election@en"
+                                },
+                                {
+                                    "name": "FilmFestival",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "film festival@en"
+                                },
+                                {
+                                    "name": "HistoricalEvent",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "historical event@en"
+                                },
+                                {
+                                    "name": "Meeting",
+                                    "additional_parents": [
+                                        "Unicum"
+                                    ],
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "meeting@en"
+                                },
+                                {
+                                    "name": "MilitaryConflict",
+                                    "additional_parents": [
+                                        "Unicum"
+                                    ],
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "military conflict@en"
+                                },
+                                {
+                                    "name": "MusicFestival",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "music festival@en"
+                                },
+                                {
+                                    "name": "Rebellion",
+                                    "additional_parents": [
+                                        "Unicum"
+                                    ],
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "rebellion@en"
+                                },
+                                {
+                                    "name": "SpaceMission",
+                                    "additional_parents": [
+                                        "Unicum"
+                                    ],
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "space mission@en"
+                                },
+                                {
+                                    "name": "SportsEvent",
+                                    "additional_parents": [
+                                        "Unicum"
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "CyclingCompetition",
+                                            "children": [],
+                                            "label": "cycling competition@en"
+                                        },
+                                        {
+                                            "name": "FootballMatch",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "football match@en"
+                                        },
+                                        {
+                                            "name": "GrandPrix",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "Grand Prix@en"
+                                        },
+                                        {
+                                            "name": "InternationalFootballLeagueEvent",
+                                            "children": [],
+                                            "label": "international football league event@en"
+                                        },
+                                        {
+                                            "name": "MixedMartialArtsEvent",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "mixed martial arts event@en"
+                                        },
+                                        {
+                                            "name": "NationalFootballLeagueEvent",
+                                            "children": [],
+                                            "label": "national football league event@en"
+                                        },
+                                        {
+                                            "name": "Olympics",
+                                            "children": [
+                                                {
+                                                    "name": "OlympicEvent",
+                                                    "children": [],
+                                                    "ontology_only": true,
+                                                    "label": "olympic event@en"
+                                                }
+                                            ],
+                                            "ontology_only": true,
+                                            "label": "olympics@en"
+                                        },
+                                        {
+                                            "name": "Race",
+                                            "children": [
+                                                {
+                                                    "name": "CyclingRace",
+                                                    "children": [],
+                                                    "ontology_only": true,
+                                                    "label": "cycling race@en"
+                                                },
+                                                {
+                                                    "name": "HorseRace",
+                                                    "children": [],
+                                                    "ontology_only": true,
+                                                    "label": "horse race@en"
+                                                },
+                                                {
+                                                    "name": "MotorRace",
+                                                    "children": [],
+                                                    "label": "motor race@en"
+                                                }
+                                            ],
+                                            "ontology_only": true,
+                                            "label": "race@en"
+                                        },
+                                        {
+                                            "name": "Tournament",
+                                            "children": [
+                                                {
+                                                    "name": "GolfTournament",
+                                                    "children": [],
+                                                    "ontology_only": true,
+                                                    "label": "golf tournament@en"
+                                                },
+                                                {
+                                                    "name": "SoccerTournament",
+                                                    "children": [],
+                                                    "ontology_only": true,
+                                                    "label": "soccer tournoment@en"
+                                                },
+                                                {
+                                                    "name": "TennisTournament",
+                                                    "children": [],
+                                                    "ontology_only": true,
+                                                    "label": "tennis tournament@en"
+                                                },
+                                                {
+                                                    "name": "WomensTennisAssociationTournament",
+                                                    "children": [],
+                                                    "ontology_only": true,
+                                                    "label": "Women's Tennis Association tournament@en"
+                                                }
+                                            ],
+                                            "ontology_only": true,
+                                            "label": "tournament@en"
+                                        },
+                                        {
+                                            "name": "WrestlingEvent",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "wrestling event@en"
+                                        }
+                                    ],
+                                    "ontology_only": true,
+                                    "label": "sports event@en"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "name": "SportsSeason",
