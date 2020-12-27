@@ -2625,7 +2625,7 @@
             "name": "Place",
             "wrapper": true,
             "additional_parents": [
-                "Unicum", "Concretum"
+                "Unicum", "Body"
             ],
             "children": [
                 {
@@ -4509,17 +4509,23 @@
         {
             "name": "Concretum",
             "label": "concrete noun@en",
-            "aliases": [
-                "Physical body",
-                "Physical entity",
-                "Material object"
-            ],
             "children": [
                 {
-                    "name": "Movable",
-                    "label": "movable noun@en",
+                    "name": "Body",
+                    "label": "",
                     "aliases": [
-                        "Not-fixed in place body"
+                        "Physical body",
+                        "Physical entity",
+                        "Material object"
+                    ],
+                    "children": [
+                        {
+                            "name": "Movable",
+                            "label": "movable noun@en",
+                            "aliases": [
+                                "Not-fixed in place body"
+                            ]
+                        }
                     ]
                 }
             ]
