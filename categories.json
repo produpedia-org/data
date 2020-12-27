@@ -4189,9 +4189,12 @@
                     "children": [
                         {
                             "name": "VideoGame",
-                            "children": [],
                             "ontology_only": true,
-                            "label": "video game@en"
+                            "label": "video game@en",
+                            "children": [],
+                            "additional_parents": [
+                                "Game"
+                            ]
                         }
                     ],
                     "ontology_only": true,
