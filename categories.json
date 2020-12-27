@@ -3851,63 +3851,6 @@
             "label": "species@en"
         },
         {
-            "name": "SportsSeason",
-            "wrapper": true,
-            "additional_parents": [
-                "Unicum", "Abstractum"
-            ],
-            "children": [
-                {
-                    "name": "MotorsportSeason",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "motorsport season@en"
-                },
-                {
-                    "name": "SportsTeamSeason",
-                    "wrapper": true,
-                    "children": [
-                        {
-                            "name": "BaseballSeason",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "baseball season@en"
-                        },
-                        {
-                            "name": "FootballLeagueSeason",
-                            "children": [
-                                {
-                                    "name": "NationalFootballLeagueSeason",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "national football league season@en"
-                                }
-                            ],
-                            "ontology_only": true,
-                            "label": "football league season@en"
-                        },
-                        {
-                            "name": "NCAATeamSeason",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "national collegiate athletic association team season@en"
-                        },
-                        {
-                            "name": "SoccerClubSeason",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "soccer club season@en"
-                        },
-                        {
-                            "name": "SoccerLeagueSeason",
-                            "children": [],
-                            "label": "soccer league season@en"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name": "Tank",
             "children": [],
             "additional_parents": [
@@ -3946,6 +3889,60 @@
                     "name": "ProtohistoricalPeriod",
                     "children": [],
                     "label": "protohistorical period@en"
+                },
+                {
+                    "name": "SportsSeason",
+                    "wrapper": true,
+                    "children": [
+                        {
+                            "name": "MotorsportSeason",
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "motorsport season@en"
+                        },
+                        {
+                            "name": "SportsTeamSeason",
+                            "wrapper": true,
+                            "children": [
+                                {
+                                    "name": "BaseballSeason",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "baseball season@en"
+                                },
+                                {
+                                    "name": "FootballLeagueSeason",
+                                    "children": [
+                                        {
+                                            "name": "NationalFootballLeagueSeason",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "national football league season@en"
+                                        }
+                                    ],
+                                    "ontology_only": true,
+                                    "label": "football league season@en"
+                                },
+                                {
+                                    "name": "NCAATeamSeason",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "national collegiate athletic association team season@en"
+                                },
+                                {
+                                    "name": "SoccerClubSeason",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "soccer club season@en"
+                                },
+                                {
+                                    "name": "SoccerLeagueSeason",
+                                    "children": [],
+                                    "label": "soccer league season@en"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
