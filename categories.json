@@ -1930,111 +1930,6 @@
             "label": "currency@en"
         },
         {
-            "name": "Device",
-            "additional_parents": [
-                "Multitude", "Movable"
-            ],
-            "children": [
-                {
-                    "name": "Battery",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "battery@en"
-                },
-                {
-                    "name": "Camera",
-                    "children": [
-                        {
-                            "name": "DigitalCamera",
-                            "children": [],
-                            "label": "digital camera@en"
-                        }
-                    ],
-                    "ontology_only": true,
-                    "label": "camera@en"
-                },
-                {
-                    "name": "Engine",
-                    "children": [
-                        {
-                            "name": "AutomobileEngine",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "automobile engine@en"
-                        },
-                        {
-                            "name": "RocketEngine",
-                            "children": [],
-                            "label": "rocket engine@en"
-                        }
-                    ],
-                    "ontology_only": true,
-                    "label": "engine@en"
-                },
-                {
-                    "name": "Instrument",
-                    "children": [
-                        {
-                            "name": "Guitar",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "guitar@en"
-                        },
-                        {
-                            "name": "Organ",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "organ@en"
-                        }
-                    ],
-                    "ontology_only": true,
-                    "label": "Instrument@en"
-                },
-                {
-                    "name": "Phone",
-                    "children": [
-                        {
-                            "name": "MobilePhone",
-                            "children": [
-                                {
-                                    "name": "Smartphone"
-                                }
-                            ],
-                            "label": "mobile phone@en"
-                        }
-                    ]
-                },
-                {
-                    "name": "Computer",
-                    "children": [
-                        {
-                            "name": "TabletComputer",
-                            "aliases": [
-                                "Tablet"
-                            ]
-                        },
-                        {
-                            "name": "Supercomputer",
-                            "unique": true
-                        }
-                    ]
-                },
-                {
-                    "name": "Robot",
-                    "children": [],
-                    "label": "Robot@en"
-                },
-                {
-                    "name": "Weapon",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "weapon@en"
-                }
-            ],
-            "ontology_only": true,
-            "label": "device@en"
-        },
-        {
             "name": "Diploma",
             "additional_parents": [
                 "Multitude", "Movable"
@@ -4469,6 +4364,111 @@
                             "label": "treaty@en"
                         }
                     ]
+                },
+                {
+                    "name": "Device",
+                    "additional_parents": [
+                        "Multitude", "Movable"
+                    ],
+                    "children": [
+                        {
+                            "name": "Battery",
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "battery@en"
+                        },
+                        {
+                            "name": "Camera",
+                            "children": [
+                                {
+                                    "name": "DigitalCamera",
+                                    "children": [],
+                                    "label": "digital camera@en"
+                                }
+                            ],
+                            "ontology_only": true,
+                            "label": "camera@en"
+                        },
+                        {
+                            "name": "Engine",
+                            "children": [
+                                {
+                                    "name": "AutomobileEngine",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "automobile engine@en"
+                                },
+                                {
+                                    "name": "RocketEngine",
+                                    "children": [],
+                                    "label": "rocket engine@en"
+                                }
+                            ],
+                            "ontology_only": true,
+                            "label": "engine@en"
+                        },
+                        {
+                            "name": "Instrument",
+                            "children": [
+                                {
+                                    "name": "Guitar",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "guitar@en"
+                                },
+                                {
+                                    "name": "Organ",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "organ@en"
+                                }
+                            ],
+                            "ontology_only": true,
+                            "label": "Instrument@en"
+                        },
+                        {
+                            "name": "Phone",
+                            "children": [
+                                {
+                                    "name": "MobilePhone",
+                                    "children": [
+                                        {
+                                            "name": "Smartphone"
+                                        }
+                                    ],
+                                    "label": "mobile phone@en"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Computer",
+                            "children": [
+                                {
+                                    "name": "TabletComputer",
+                                    "aliases": [
+                                        "Tablet"
+                                    ]
+                                },
+                                {
+                                    "name": "Supercomputer",
+                                    "unique": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Robot",
+                            "children": [],
+                            "label": "Robot@en"
+                        },
+                        {
+                            "name": "Weapon",
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "weapon@en"
+                        }
+                    ],
+                    "ontology_only": true,
+                    "label": "device@en"
                 }
             ]
         }
