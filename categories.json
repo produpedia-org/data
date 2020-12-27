@@ -12,7 +12,7 @@
                 {
                     "name": "Game",
                     "additional_parents": [
-                        "Group", "Concretum"
+                        "Group", "Movable"
                     ],
                     "children": [
                         {
@@ -1696,7 +1696,7 @@
             "name": "AnatomicalStructure",
             "wrapper": true,
             "additional_parents": [
-                "Group", "Concretum"
+                "Group", "Movable"
             ],
             "children": [
                 {
@@ -1763,7 +1763,7 @@
         {
             "name": "Award",
             "additional_parents": [
-                "Group", "Concretum"
+                "Group", "Movable"
             ],
             "children": [
                 {
@@ -1784,7 +1784,7 @@
         {
             "name": "Biomolecule",
             "additional_parents": [
-                "Group", "Concretum"
+                "Group", "Movable"
             ],
             "children": [
                 {
@@ -1839,7 +1839,7 @@
         {
             "name": "Blazon",
             "additional_parents": [
-                "Unicum" ,"Concretum"
+                "Unicum" ,"Movable"
             ],
             "children": [],
             "label": "Blazon@en"
@@ -1855,7 +1855,7 @@
         {
             "name": "ChemicalSubstance",
             "additional_parents": [
-                "Group" ,"Concretum"
+                "Group" ,"Movable"
             ],
             "wrapper": true,
             "children": [
@@ -1932,7 +1932,7 @@
         {
             "name": "Device",
             "additional_parents": [
-                "Group", "Concretum"
+                "Group", "Movable"
             ],
             "children": [
                 {
@@ -2037,7 +2037,7 @@
         {
             "name": "Diploma",
             "additional_parents": [
-                "Group", "Concretum"
+                "Group", "Movable"
             ],
             "children": [],
             "ontology_only": true,
@@ -2064,6 +2064,9 @@
         {
             "name": "Event",
             "wrapper": true,
+            "additional_parents": [
+                "Concretum"
+            ],
             "children": [
                 {
                     "name": "Competition",
@@ -2328,9 +2331,6 @@
                         }
                     ]
                 }
-            ],
-            "additional_parents": [
-                "Concretum"
             ]
         },
         {
@@ -2344,7 +2344,7 @@
         {
             "name": "Flag",
             "additional_parents": [
-                "Group", "Concretum"
+                "Group", "Movable"
             ],
             "children": [],
             "ontology_only": true,
@@ -2353,7 +2353,7 @@
         {
             "name": "Food",
             "additional_parents": [
-                "Group", "Concretum"    
+                "Group", "Movable"    
             ],
             "children": [
                 {
@@ -2451,7 +2451,7 @@
             "name": "MeanOfTransportation",
             "wrapper": true,
             "additional_parents": [
-                "Group", "Concretum"
+                "Group", "Movable"
             ],
             "children": [
                 {
@@ -2573,7 +2573,7 @@
         {
             "name": "Medicine",
             "additional_parents": [
-                "Group", "Concretum"
+                "Group", "Movable"
             ],
             "children": [],
             "ontology_only": true,
@@ -3911,7 +3911,7 @@
             "name": "Tank",
             "children": [],
             "additional_parents": [
-                "Concretum"
+                "Movable"
             ],
             "label": "Tank@en"
         },
@@ -4112,11 +4112,14 @@
         {
             "name": "Work",
             "wrapper": true,
+            "additional_parents": [
+                "Concretum"
+            ],
             "children": [
                 {
                     "name": "Artwork",
                     "additional_parents": [
-                        "Unicum"
+                        "Unicum", "Movable"
                     ],
                     "children": [
                         {
@@ -4216,7 +4219,10 @@
                             "name": "Album",
                             "children": [],
                             "ontology_only": true,
-                            "label": "album@en"
+                            "label": "album@en",
+                            "additional_parents": [
+                                "Movable"
+                            ]
                         },
                         {
                             "name": "ClassicalMusicComposition",
@@ -4338,6 +4344,9 @@
                 {
                     "name": "WrittenWork",
                     "wrapper": true,
+                    "additional_parents": [
+                        "Movable"
+                    ],
                     "children": [
                         {
                             "name": "Book",
@@ -4464,9 +4473,6 @@
                         }
                     ]
                 }
-            ],
-            "additional_parents": [
-                "Concretum"
             ]
         }
     ]
@@ -4481,6 +4487,9 @@
 },
 {
     "name": "Creature",
+    "additional_parents": [
+        "Movable"
+    ],
     "children": []
 },
 {
@@ -4499,12 +4508,20 @@
         },
         {
             "name": "Concretum",
-            "children": [],
             "label": "concrete noun@en",
             "aliases": [
                 "Physical body",
                 "Physical entity",
                 "Material object"
+            ],
+            "children": [
+                {
+                    "name": "Movable",
+                    "label": "movable noun@en",
+                    "aliases": [
+                        "Not-fixed in place body"
+                    ]
+                }
             ]
         }
     ]
