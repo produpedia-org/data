@@ -12,7 +12,7 @@
                 {
                     "name": "Game",
                     "additional_parents": [
-                        "Multitude", "Movable"
+                        "Work", "Multitude", "Movable"
                     ],
                     "children": [
                         {
