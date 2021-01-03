@@ -6,13 +6,16 @@
         {
             "name": "Activity",
             "additional_parents": [
-                "Unicum", "Abstractum"
+                "Unicum",
+                "Abstractum"
             ],
             "children": [
                 {
                     "name": "Game",
                     "additional_parents": [
-                        "Work", "Multitude", "Movable"
+                        "Work",
+                        "Multitude",
+                        "Movable"
                     ],
                     "children": [
                         {
@@ -55,14 +58,16 @@
             "name": "Agent",
             "wrapper": true,
             "additional_parents": [
-                "Unicum", "Concretum"
+                "Unicum",
+                "Concretum"
             ],
             "children": [
                 {
                     "name": "Deity",
                     "children": [],
                     "additional_parents": [
-                        "Creature", "Abstractum"
+                        "Creature",
+                        "Abstractum"
                     ],
                     "ontology_only": true,
                     "label": "deity@en"
@@ -1696,7 +1701,8 @@
             "name": "AnatomicalStructure",
             "wrapper": true,
             "additional_parents": [
-                "Multitude", "Movable"
+                "Multitude",
+                "Movable"
             ],
             "children": [
                 {
@@ -1763,7 +1769,8 @@
         {
             "name": "Award",
             "additional_parents": [
-                "Multitude", "Movable"
+                "Multitude",
+                "Movable"
             ],
             "children": [
                 {
@@ -1784,7 +1791,8 @@
         {
             "name": "Biomolecule",
             "additional_parents": [
-                "Multitude", "Movable"
+                "Multitude",
+                "Movable"
             ],
             "children": [
                 {
@@ -1906,7 +1914,8 @@
         {
             "name": "Cipher",
             "additional_parents": [
-                "Unicum", "Concretum"
+                "Unicum",
+                "Concretum"
             ],
             "children": [],
             "label": "Cipher@en"
@@ -1914,7 +1923,8 @@
         {
             "name": "Colour",
             "additional_parents": [
-                "Unicum", "Abstractum"
+                "Unicum",
+                "Abstractum"
             ],
             "children": [],
             "ontology_only": true,
@@ -1923,7 +1933,8 @@
         {
             "name": "Currency",
             "additional_parents": [
-                "Unicum", "Concretum"
+                "Unicum",
+                "Concretum"
             ],
             "children": [],
             "ontology_only": true,
@@ -1932,7 +1943,8 @@
         {
             "name": "Diploma",
             "additional_parents": [
-                "Multitude", "Movable"
+                "Multitude",
+                "Movable"
             ],
             "children": [],
             "ontology_only": true,
@@ -1941,7 +1953,8 @@
         {
             "name": "Disease",
             "additional_parents": [
-                "Unicum", "Concretum"
+                "Unicum",
+                "Concretum"
             ],
             "children": [],
             "ontology_only": true,
@@ -1959,7 +1972,8 @@
         {
             "name": "FileSystem",
             "additional_parents": [
-                "Unicum", "Abstractum"
+                "Unicum",
+                "Abstractum"
             ],
             "children": [],
             "label": "File system@en"
@@ -1967,7 +1981,8 @@
         {
             "name": "Flag",
             "additional_parents": [
-                "Multitude", "Movable"
+                "Multitude",
+                "Movable"
             ],
             "children": [],
             "ontology_only": true,
@@ -1976,7 +1991,8 @@
         {
             "name": "Food",
             "additional_parents": [
-                "Multitude", "Movable"    
+                "Multitude",
+                "Movable"    
             ],
             "children": [
                 {
@@ -2023,7 +2039,8 @@
         {
             "name": "GeneLocation",
             "additional_parents": [
-                "Multitude", "Concretum"
+                "Multitude",
+                "Concretum"
             ],
             "children": [
                 {
@@ -2043,7 +2060,8 @@
             "name": "Identifier",
             "wrapper": true,
             "additional_parents": [
-                "Unicum", "Concretum"
+                "Unicum",
+                "Concretum"
             ],
             "children": [
                 {
@@ -2057,7 +2075,8 @@
         {
             "name": "Language",
             "additional_parents": [
-                "Unicum", "Abstractum"
+                "Unicum",
+                "Abstractum"
             ],
             "children": [
                 {
@@ -2074,7 +2093,8 @@
             "name": "MeanOfTransportation",
             "wrapper": true,
             "additional_parents": [
-                "Multitude", "Movable"
+                "Multitude",
+                "Movable"
             ],
             "children": [
                 {
@@ -2187,7 +2207,8 @@
         {
             "name": "MedicalSpecialty",
             "additional_parents": [
-                "Unicum", "Concretum"
+                "Unicum",
+                "Concretum"
             ],
             "children": [],
             "ontology_only": true,
@@ -2196,7 +2217,8 @@
         {
             "name": "Medicine",
             "additional_parents": [
-                "Multitude", "Movable"
+                "Multitude",
+                "Movable"
             ],
             "children": [],
             "ontology_only": true,
@@ -2205,7 +2227,8 @@
         {
             "name": "Name",
             "additional_parents": [
-                "Unicum", "Abstractum"
+                "Unicum",
+                "Abstractum"
             ],
             "children": [
                 {
@@ -2227,7 +2250,8 @@
             "name": "PersonFunction",
             "wrapper": true,
             "additional_parents": [
-                "Unicum", "Abstractum"
+                "Unicum",
+                "Abstractum"
             ],
             "children": [
                 {
@@ -2248,7 +2272,8 @@
             "name": "Place",
             "wrapper": true,
             "additional_parents": [
-                "Unicum", "Body"
+                "Unicum",
+                "Body"
             ],
             "children": [
                 {
@@ -3284,7 +3309,8 @@
         {
             "name": "Protocol",
             "additional_parents": [
-                "Unicum", "Abstractum"
+                "Unicum",
+                "Abstractum"
             ],
             "children": [],
             "label": "Protocol@en"
@@ -3292,7 +3318,8 @@
         {
             "name": "Species",
             "additional_parents": [
-                "Multitude", "Creature"
+                "Multitude",
+                "Creature"
             ],
             "children": [
                 {
@@ -3485,7 +3512,8 @@
             "name": "TimePeriod",
             "wrapper": true,
             "additional_parents": [
-                "Unicum", "Abstractum"
+                "Unicum",
+                "Abstractum"
             ],
             "children": [
                 {
@@ -3845,7 +3873,8 @@
             "name": "TopicalConcept",
             "wrapper": true,
             "additional_parents": [
-                "Unicum", "Abstractum"
+                "Unicum",
+                "Abstractum"
             ],
             "children": [
                 {
@@ -3977,7 +4006,8 @@
             "name": "UnitOfWork",
             "wrapper": true,
             "additional_parents": [
-                "Unicum", "Concretum"
+                "Unicum",
+                "Concretum"
             ],
             "children": [
                 {
@@ -4011,7 +4041,8 @@
                 {
                     "name": "Artwork",
                     "additional_parents": [
-                        "Unicum", "Movable"
+                        "Unicum",
+                        "Movable"
                     ],
                     "children": [
                         {
@@ -4371,7 +4402,8 @@
                 {
                     "name": "Device",
                     "additional_parents": [
-                        "Multitude", "Movable"
+                        "Multitude",
+                        "Movable"
                     ],
                     "children": [
                         {
