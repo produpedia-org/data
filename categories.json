@@ -4230,6 +4230,15 @@
                             "additional_parents": [
                                 "game"
                             ]
+                        },
+                        {
+                            "name": "website",
+                            "additional_parents": [
+                                "unicum"
+                            ],
+                            "children": [],
+                            "ontology_only": true,
+                            "label": "website@en"
                         }
                     ],
                     "ontology_only": true,
@@ -4261,15 +4270,6 @@
                     "children": [],
                     "ontology_only": true,
                     "label": "television show@en"
-                },
-                {
-                    "name": "website",
-                    "additional_parents": [
-                        "unicum"
-                    ],
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "website@en"
                 },
                 {
                     "name": "writtenWork",
