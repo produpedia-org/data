@@ -2271,6 +2271,10 @@
         {
             "name": "place",
             "wrapper": true,
+            "aliases": [
+                "non-movable",
+                "fixed in place"
+            ],
             "additional_parents": [
                 "unicum",
                 "body"
