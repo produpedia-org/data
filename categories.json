@@ -1406,7 +1406,27 @@
                         },
                         {
                             "name": "noble",
-                            "children": [],
+                            "children": [
+                                {
+                                    "name": "royalty",
+                                    "children": [
+                                        {
+                                            "name": "britishRoyalty",
+                                            "children": [
+                                                {
+                                                    "name": "baronet",
+                                                    "children": [],
+                                                    "ontology_only": true,
+                                                    "label": "baronet@en"
+                                                }
+                                            ],
+                                            "label": "british royalty@en"
+                                        }
+                                    ],
+                                    "ontology_only": true,
+                                    "label": "royalty@en"
+                                }
+                            ],
                             "ontology_only": true,
                             "label": "noble@en"
                         },
@@ -1567,25 +1587,6 @@
                             "name": "romanEmperor",
                             "children": [],
                             "label": "roman emperor@en"
-                        },
-                        {
-                            "name": "royalty",
-                            "children": [
-                                {
-                                    "name": "britishRoyalty",
-                                    "children": [
-                                        {
-                                            "name": "baronet",
-                                            "children": [],
-                                            "ontology_only": true,
-                                            "label": "baronet@en"
-                                        }
-                                    ],
-                                    "label": "british royalty@en"
-                                }
-                            ],
-                            "ontology_only": true,
-                            "label": "royalty@en"
                         },
                         {
                             "name": "scientist",
