@@ -752,7 +752,10 @@
                                         {
                                             "name": "musicDirector",
                                             "children": [],
-                                            "label": "music director@en"
+                                            "label": "music director@en",
+                                            "additional_parents": [
+                                                "director"
+                                            ]
                                         },
                                         {
                                             "name": "singer",
@@ -1400,11 +1403,6 @@
                             "label": "monarch@en"
                         },
                         {
-                            "name": "movieDirector",
-                            "children": [],
-                            "label": "movie director@en"
-                        },
-                        {
                             "name": "noble",
                             "children": [
                                 {
@@ -1632,14 +1630,25 @@
                             "label": "sports manager@en"
                         },
                         {
-                            "name": "televisionDirector",
-                            "children": [],
-                            "label": "television director@en"
-                        },
-                        {
-                            "name": "theatreDirector",
-                            "children": [],
-                            "label": "theatre director@en"
+                            "name": "director",
+                            "label": "Director@en",
+                            "children": [
+                                {
+                                    "name": "televisionDirector",
+                                    "children": [],
+                                    "label": "television director@en"
+                                },
+                                {
+                                    "name": "theatreDirector",
+                                    "children": [],
+                                    "label": "theatre director@en"
+                                },
+                                {
+                                    "name": "movieDirector",
+                                    "children": [],
+                                    "label": "movie director@en"
+                                }
+                            ]
                         },
                         {
                             "name": "writer",
