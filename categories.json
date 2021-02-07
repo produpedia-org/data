@@ -2090,121 +2090,6 @@
             "label": "language@en"
         },
         {
-            "name": "meanOfTransportation",
-            "wrapper": true,
-            "additional_parents": [
-                "multitude",
-                "movable"
-            ],
-            "children": [
-                {
-                    "name": "aircraft",
-                    "children": [
-                        {
-                            "name": "militaryAircraft",
-                            "children": [],
-                            "label": "military aircraft@en"
-                        }
-                    ],
-                    "ontology_only": true,
-                    "label": "aircraft@en"
-                },
-                {
-                    "name": "automobile",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "automobile@en"
-                },
-                {
-                    "name": "locomotive",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "locomotive@en"
-                },
-                {
-                    "name": "militaryVehicle",
-                    "children": [],
-                    "label": "military vehicle@en"
-                },
-                {
-                    "name": "motorcycle",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "motorcycle@en"
-                },
-                {
-                    "name": "on-SiteTransportation",
-                    "wrapper": true,
-                    "children": [
-                        {
-                            "name": "conveyorSystem",
-                            "children": [],
-                            "label": "conveyor system@en"
-                        },
-                        {
-                            "name": "escalator",
-                            "children": [],
-                            "label": "escalator@en"
-                        },
-                        {
-                            "name": "movingWalkway",
-                            "children": [],
-                            "label": "travellator@en"
-                        }
-                    ]
-                },
-                {
-                    "name": "rocket",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "rocket@en"
-                },
-                {
-                    "name": "ship",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "ship@en"
-                },
-                {
-                    "name": "spaceShuttle",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "space shuttle@en"
-                },
-                {
-                    "name": "spaceStation",
-                    "additional_parents": [
-                        "unicum"
-                    ],
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "space station@en"
-                },
-                {
-                    "name": "spacecraft",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "spacecraft@en"
-                },
-                {
-                    "name": "train",
-                    "children": [],
-                    "ontology_only": true,
-                    "label": "train@en"
-                },
-                {
-                    "name": "trainCarriage",
-                    "children": [],
-                    "label": "train carriage@en"
-                },
-                {
-                    "name": "tram",
-                    "children": [],
-                    "label": "streetcar@en"
-                }
-            ]
-        },
-        {
             "name": "medicalSpecialty",
             "additional_parents": [
                 "unicum",
@@ -4504,6 +4389,121 @@
                             "children": [],
                             "ontology_only": true,
                             "label": "weapon@en"
+                        },
+                        {
+                            "name": "meanOfTransportation",
+                            "wrapper": true,
+                            "additional_parents": [
+                                "multitude",
+                                "movable"
+                            ],
+                            "children": [
+                                {
+                                    "name": "aircraft",
+                                    "children": [
+                                        {
+                                            "name": "militaryAircraft",
+                                            "children": [],
+                                            "label": "military aircraft@en"
+                                        }
+                                    ],
+                                    "ontology_only": true,
+                                    "label": "aircraft@en"
+                                },
+                                {
+                                    "name": "automobile",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "automobile@en"
+                                },
+                                {
+                                    "name": "locomotive",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "locomotive@en"
+                                },
+                                {
+                                    "name": "militaryVehicle",
+                                    "children": [],
+                                    "label": "military vehicle@en"
+                                },
+                                {
+                                    "name": "motorcycle",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "motorcycle@en"
+                                },
+                                {
+                                    "name": "on-SiteTransportation",
+                                    "wrapper": true,
+                                    "children": [
+                                        {
+                                            "name": "conveyorSystem",
+                                            "children": [],
+                                            "label": "conveyor system@en"
+                                        },
+                                        {
+                                            "name": "escalator",
+                                            "children": [],
+                                            "label": "escalator@en"
+                                        },
+                                        {
+                                            "name": "movingWalkway",
+                                            "children": [],
+                                            "label": "travellator@en"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "rocket",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "rocket@en"
+                                },
+                                {
+                                    "name": "ship",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "ship@en"
+                                },
+                                {
+                                    "name": "spaceShuttle",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "space shuttle@en"
+                                },
+                                {
+                                    "name": "spaceStation",
+                                    "additional_parents": [
+                                        "unicum"
+                                    ],
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "space station@en"
+                                },
+                                {
+                                    "name": "spacecraft",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "spacecraft@en"
+                                },
+                                {
+                                    "name": "train",
+                                    "children": [],
+                                    "ontology_only": true,
+                                    "label": "train@en"
+                                },
+                                {
+                                    "name": "trainCarriage",
+                                    "children": [],
+                                    "label": "train carriage@en"
+                                },
+                                {
+                                    "name": "tram",
+                                    "children": [],
+                                    "label": "streetcar@en"
+                                }
+                            ]
                         }
                     ],
                     "ontology_only": true,
