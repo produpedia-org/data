@@ -784,6 +784,48 @@
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "sculptor@en"
+                                },
+                                {
+                                    "name": "writer",
+                                    "children": [
+                                        {
+                                            "name": "historian",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "historian@en"
+                                        },
+                                        {
+                                            "name": "musicComposer",
+                                            "children": [],
+                                            "label": "music composer@en"
+                                        },
+                                        {
+                                            "name": "playWright",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "playwright@en"
+                                        },
+                                        {
+                                            "name": "poet",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "poet@en"
+                                        },
+                                        {
+                                            "name": "screenWriter",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "screenwriter@en"
+                                        },
+                                        {
+                                            "name": "songWriter",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "songwriter@en"
+                                        }
+                                    ],
+                                    "ontology_only": true,
+                                    "label": "writer@en"
                                 }
                             ],
                             "ontology_only": true,
@@ -1649,48 +1691,6 @@
                                     "label": "movie director@en"
                                 }
                             ]
-                        },
-                        {
-                            "name": "writer",
-                            "children": [
-                                {
-                                    "name": "historian",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "historian@en"
-                                },
-                                {
-                                    "name": "musicComposer",
-                                    "children": [],
-                                    "label": "music composer@en"
-                                },
-                                {
-                                    "name": "playWright",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "playwright@en"
-                                },
-                                {
-                                    "name": "poet",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "poet@en"
-                                },
-                                {
-                                    "name": "screenWriter",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "screenwriter@en"
-                                },
-                                {
-                                    "name": "songWriter",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "songwriter@en"
-                                }
-                            ],
-                            "ontology_only": true,
-                            "label": "writer@en"
                         }
                     ],
                     "additional_parents": [
