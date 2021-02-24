@@ -2,6 +2,7 @@
 {
     "name": "thing",
     "wrapper": true,
+    "label": "thing@en",
     "children": [
         {
             "name": "activity",
@@ -57,6 +58,7 @@
         {
             "name": "agent",
             "wrapper": true,
+            "label": "agent@en",
             "additional_parents": [
                 "unicum",
                 "concretum"
@@ -64,6 +66,9 @@
             "children": [
                 {
                     "name": "deity",
+                    "alternative_names": [
+                        "god"
+                    ],
                     "children": [],
                     "additional_parents": [
                         "creature",
@@ -81,6 +86,7 @@
                 {
                     "name": "family",
                     "wrapper": true,
+                    "label": "family@en",
                     "children": [
                         {
                             "name": "nobleFamily",
@@ -136,6 +142,12 @@
                 },
                 {
                     "name": "organisation",
+                    "alternative_names": [
+                        "institution"
+                    ],
+                    "additional_parents": [
+                        "building"
+                    ],
                     "children": [
                         {
                             "name": "broadcaster",
@@ -271,25 +283,37 @@
                             "label": "geopolitical organisation@en"
                         },
                         {
-                            "name": "governmentAgency",
+                            "name": "agency",
+                            "label": "Agency@en",
                             "children": [
                                 {
-                                    "name": "governmentCabinet",
-                                    "children": [],
-                                    "label": "cabinet of ministers@en"
+                                    "name": "governmentAgency",
+                                    "children": [
+                                        {
+                                            "name": "governmentCabinet",
+                                            "children": [],
+                                            "label": "cabinet of ministers@en"
+                                        }
+                                    ],
+                                    "ontology_only": true,
+                                    "label": "government agency@en"
                                 }
-                            ],
-                            "ontology_only": true,
-                            "label": "government agency@en"
+                            ]
                         },
                         {
                             "name": "group",
                             "children": [
                                 {
-                                    "name": "band",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "band@en"
+                                    "name": "ensemble",
+                                    "label": "ensemble@en",
+                                    "children": [
+                                        {
+                                            "name": "band",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "band@en"
+                                        }
+                                    ]
                                 },
                                 {
                                     "name": "comedyGroup",
@@ -651,6 +675,7 @@
                 {
                     "name": "person",
                     "wrapper": true,
+                    "label": "person@en",
                     "children": [
                         {
                             "name": "archeologist",
@@ -675,6 +700,9 @@
                             "children": [
                                 {
                                     "name": "actor",
+                                    "alternative_names": [
+                                        "actress"
+                                    ],
                                     "children": [
                                         {
                                             "name": "adultActor",
@@ -759,6 +787,9 @@
                                         },
                                         {
                                             "name": "singer",
+                                            "alternative_names": [
+                                                "vocalist"
+                                            ],
                                             "children": [],
                                             "ontology_only": true,
                                             "label": "singer@en"
@@ -775,6 +806,9 @@
                                 },
                                 {
                                     "name": "photographer",
+                                    "alternative_names": [
+                                        "photojournalist"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "photographer@en"
@@ -787,6 +821,9 @@
                                 },
                                 {
                                     "name": "writer",
+                                    "alternative_names": [
+                                        "author"
+                                    ],
                                     "children": [
                                         {
                                             "name": "historian",
@@ -796,6 +833,9 @@
                                         },
                                         {
                                             "name": "musicComposer",
+                                            "alternative_names": [
+                                                "composer"
+                                            ],
                                             "children": [],
                                             "label": "music composer@en"
                                         },
@@ -842,6 +882,9 @@
                             "children": [
                                 {
                                     "name": "archerPlayer",
+                                    "alternative_names": [
+                                        "archer"
+                                    ],
                                     "children": [],
                                     "label": "archer Player@en"
                                 },
@@ -901,6 +944,9 @@
                                 },
                                 {
                                     "name": "canoeist",
+                                    "alternative_names": [
+                                        "canoer"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "canoeist@en"
@@ -950,6 +996,7 @@
                                 {
                                     "name": "gridironFootballPlayer",
                                     "wrapper": true,
+                                    "label": "gridiron football player@en",
                                     "children": [
                                         {
                                             "name": "americanFootballPlayer",
@@ -983,6 +1030,9 @@
                                 },
                                 {
                                     "name": "horseRider",
+                                    "alternative_names": [
+                                        "equestrian"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "horse rider@en"
@@ -1171,6 +1221,9 @@
                                         },
                                         {
                                             "name": "bobsleighAthlete",
+                                            "alternative_names": [
+                                                "bobsledder"
+                                            ],
                                             "children": [],
                                             "label": "bobsleighAthlete@en"
                                         },
@@ -1215,6 +1268,9 @@
                                         },
                                         {
                                             "name": "skier",
+                                            "additional_parents": [
+                                                "mountaineer"
+                                            ],
                                             "children": [],
                                             "ontology_only": true,
                                             "label": "skier@en"
@@ -1253,6 +1309,10 @@
                         },
                         {
                             "name": "businessPerson",
+                            "alternative_names": [
+                                "businessman",
+                                "businesswoman"
+                            ],
                             "children": [],
                             "ontology_only": true,
                             "label": "businessperson@en"
@@ -1265,6 +1325,9 @@
                         },
                         {
                             "name": "cleric",
+                            "alternative_names": [
+                                "churchman"
+                            ],
                             "children": [
                                 {
                                     "name": "cardinal",
@@ -1274,6 +1337,9 @@
                                 },
                                 {
                                     "name": "christianBishop",
+                                    "alternative_names": [
+                                        "bishop"
+                                    ],
                                     "children": [
                                         {
                                             "name": "archbishop",
@@ -1411,6 +1477,11 @@
                         },
                         {
                             "name": "lawyer",
+                            "alternative_names": [
+                                "attorney",
+                                "jurist",
+                                "solicitor"
+                            ],
                             "children": [],
                             "ontology_only": true,
                             "label": "lawyer@en"
@@ -1446,6 +1517,9 @@
                         },
                         {
                             "name": "noble",
+                            "alternative_names": [
+                                "noblewoman"
+                            ],
                             "children": [
                                 {
                                     "name": "royalty",
@@ -1624,15 +1698,27 @@
                             "label": "religious@en"
                         },
                         {
-                            "name": "romanEmperor",
-                            "children": [],
-                            "label": "roman emperor@en"
+                            "name": "emperor",
+                            "label": "emperor@en",
+                            "alternative_names": [
+                                "empress"
+                            ],
+                            "children": [
+                                {
+                                    "name": "romanEmperor",
+                                    "children": [],
+                                    "label": "roman emperor@en"
+                                }
+                            ]
                         },
                         {
                             "name": "scientist",
                             "children": [
                                 {
                                     "name": "biologist",
+                                    "alternative_names": [
+                                        "zoologist"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "biologist@en"
@@ -1645,6 +1731,9 @@
                                 },
                                 {
                                     "name": "medician",
+                                    "alternative_names": [
+                                        "doctor"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "medician@en"
@@ -1710,6 +1799,7 @@
         {
             "name": "anatomicalStructure",
             "wrapper": true,
+            "label": "anatomical structure@en",
             "additional_parents": [
                 "multitude",
                 "movable"
@@ -1778,6 +1868,9 @@
         },
         {
             "name": "award",
+            "alternative_names": [
+                "trophy"
+            ],
             "additional_parents": [
                 "multitude",
                 "movable"
@@ -1857,29 +1950,56 @@
         {
             "name": "blazon",
             "additional_parents": [
-                "unicum" ,"movable"
+                "unicum",
+                "movable"
             ],
             "children": [],
             "label": "blazon@en"
         },
         {
-            "name": "browser",
-            "additional_parents": [
-                "unicum" ,"concretum"
-            ],
-            "children": [],
-            "label": "browser@en"
-        },
-        {
             "name": "chemicalSubstance",
             "additional_parents": [
-                "multitude" ,"movable"
+                "multitude",
+                "movable"
             ],
             "wrapper": true,
+            "label": "chemical substance@en",
             "children": [
                 {
                     "name": "chemicalCompound",
-                    "children": [],
+                    "children": [
+                        {
+                            "name": "drug",
+                            "children": [
+                                {
+                                    "name": "medication",
+                                    "label": "Medication@en",
+                                    "children": [
+                                        {
+                                            "name": "combinationDrug",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "combination drug@en"
+                                        },
+                                        {
+                                            "name": "monoclonalAntibody",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "monoclonal antibody@en"
+                                        },
+                                        {
+                                            "name": "vaccine",
+                                            "children": [],
+                                            "ontology_only": true,
+                                            "label": "vaccine@en"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "ontology_only": true,
+                            "label": "drug@en"
+                        }
+                    ],
                     "ontology_only": true,
                     "label": "chemical compound@en"
                 },
@@ -1887,31 +2007,6 @@
                     "name": "chemicalElement",
                     "children": [],
                     "label": "chemical element@en"
-                },
-                {
-                    "name": "drug",
-                    "children": [
-                        {
-                            "name": "combinationDrug",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "combination drug@en"
-                        },
-                        {
-                            "name": "monoclonalAntibody",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "monoclonal antibody@en"
-                        },
-                        {
-                            "name": "vaccine",
-                            "children": [],
-                            "ontology_only": true,
-                            "label": "vaccine@en"
-                        }
-                    ],
-                    "ontology_only": true,
-                    "label": "drug@en"
                 },
                 {
                     "name": "mineral",
@@ -2002,11 +2097,14 @@
             "name": "food",
             "additional_parents": [
                 "multitude",
-                "movable"    
+                "movable"
             ],
             "children": [
                 {
                     "name": "beverage",
+                    "alternative_names": [
+                        "drink"
+                    ],
                     "children": [
                         {
                             "name": "beer",
@@ -2069,6 +2167,7 @@
         {
             "name": "identifier",
             "wrapper": true,
+            "label": "identifier@en",
             "additional_parents": [
                 "unicum",
                 "concretum"
@@ -2144,6 +2243,7 @@
         {
             "name": "personFunction",
             "wrapper": true,
+            "label": "person function@en",
             "additional_parents": [
                 "unicum",
                 "abstractum"
@@ -2177,6 +2277,7 @@
             "children": [
                 {
                     "name": "architecturalStructure",
+                    "label": "architectural structure@en",
                     "wrapper": true,
                     "children": [
                         {
@@ -2333,6 +2434,9 @@
                                         },
                                         {
                                             "name": "theatre",
+                                            "alternative_names": [
+                                                "theater"
+                                            ],
                                             "children": [],
                                             "ontology_only": true,
                                             "label": "theatre@en"
@@ -2389,6 +2493,9 @@
                                     "children": [
                                         {
                                             "name": "nuclearPowerStation",
+                                            "alternative_names": [
+                                                "reactor"
+                                            ],
                                             "children": [],
                                             "label": "nuclear Power plant@en"
                                         }
@@ -2403,6 +2510,7 @@
                                 },
                                 {
                                     "name": "routeOfTransportation",
+                                    "label": "route of transportation@en",
                                     "wrapper": true,
                                     "children": [
                                         {
@@ -2425,6 +2533,9 @@
                                         },
                                         {
                                             "name": "road",
+                                            "alternative_names": [
+                                                "motorway"
+                                            ],
                                             "children": [],
                                             "ontology_only": true,
                                             "label": "road@en"
@@ -2546,6 +2657,7 @@
                         },
                         {
                             "name": "sportFacility",
+                            "label": "sport facility@en",
                             "wrapper": true,
                             "children": [
                                 {
@@ -2627,6 +2739,7 @@
                 },
                 {
                     "name": "celestialBody",
+                    "label": "celestial body@en",
                     "wrapper": true,
                     "children": [
                         {
@@ -2672,13 +2785,7 @@
                         },
                         {
                             "name": "star",
-                            "children": [
-                                {
-                                    "name": "brownDwarf",
-                                    "children": [],
-                                    "label": "brown dwarf@en"
-                                }
-                            ],
+                            "children": [],
                             "ontology_only": true,
                             "label": "star@en"
                         },
@@ -2743,6 +2850,7 @@
                 },
                 {
                     "name": "naturalPlace",
+                    "label": "natural place@en",
                     "wrapper": true,
                     "children": [
                         {
@@ -2768,6 +2876,9 @@
                                 },
                                 {
                                     "name": "lake",
+                                    "alternative_names": [
+                                        "loch"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "lake@en"
@@ -2891,6 +3002,7 @@
                 },
                 {
                     "name": "populatedPlace",
+                    "label": "populated place@en",
                     "wrapper": true,
                     "children": [
                         {
@@ -2934,6 +3046,9 @@
                         },
                         {
                             "name": "island",
+                            "alternative_names": [
+                                "islet"
+                            ],
                             "children": [
                                 {
                                     "name": "atoll",
@@ -3229,6 +3344,9 @@
                 },
                 {
                     "name": "bacteria",
+                    "alternative_names": [
+                        "bacterium"
+                    ],
                     "children": [],
                     "ontology_only": true,
                     "label": "bacteria@en"
@@ -3247,6 +3365,10 @@
                                 },
                                 {
                                     "name": "arachnid",
+                                    "alternative_names": [
+                                        "spider",
+                                        "spiders"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "arachnid@en"
@@ -3265,6 +3387,9 @@
                                 },
                                 {
                                     "name": "fish",
+                                    "alternative_names": [
+                                        "fishes"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "fish@en"
@@ -3301,6 +3426,13 @@
                                 },
                                 {
                                     "name": "mollusca",
+                                    "alternative_names": [
+                                        "snail",
+                                        "snails",
+                                        "slug",
+                                        "slugs",
+                                        "mollusc"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "mollusca@en"
@@ -3323,6 +3455,9 @@
                         },
                         {
                             "name": "plant",
+                            "alternative_names": [
+                                "herb"
+                            ],
                             "children": [
                                 {
                                     "name": "clubMoss",
@@ -3376,12 +3511,6 @@
                                     "label": "gnetophytes@en"
                                 },
                                 {
-                                    "name": "greenAlga",
-                                    "children": [],
-                                    "ontology_only": true,
-                                    "label": "green alga@en"
-                                },
-                                {
                                     "name": "moss",
                                     "children": [],
                                     "ontology_only": true,
@@ -3410,6 +3539,7 @@
         {
             "name": "timePeriod",
             "wrapper": true,
+            "label": "time period@en",
             "additional_parents": [
                 "unicum",
                 "abstractum"
@@ -3463,6 +3593,7 @@
                         {
                             "name": "naturalEvent",
                             "wrapper": true,
+                            "label": "natural event@en",
                             "additional_parents": [
                                 "unicum"
                             ],
@@ -3506,6 +3637,7 @@
                         {
                             "name": "societalEvent",
                             "wrapper": true,
+                            "label": "societal event@en",
                             "children": [
                                 {
                                     "name": "academicConference",
@@ -3575,6 +3707,9 @@
                                 },
                                 {
                                     "name": "rebellion",
+                                    "alternative_names": [
+                                        "uprising"
+                                    ],
                                     "additional_parents": [
                                         "unicum"
                                     ],
@@ -3707,6 +3842,7 @@
                                         {
                                             "name": "sportsSeason",
                                             "wrapper": true,
+                                            "label": "sports season@en",
                                             "children": [
                                                 {
                                                     "name": "motorsportSeason",
@@ -3717,6 +3853,7 @@
                                                 {
                                                     "name": "sportsTeamSeason",
                                                     "wrapper": true,
+                                                    "label": "sports team season@en",
                                                     "children": [
                                                         {
                                                             "name": "baseballSeason",
@@ -3771,6 +3908,7 @@
         {
             "name": "topicalConcept",
             "wrapper": true,
+            "label": "topical concept@en",
             "additional_parents": [
                 "unicum",
                 "abstractum"
@@ -3904,6 +4042,7 @@
         {
             "name": "unitOfWork",
             "wrapper": true,
+            "label": "unit of work@en",
             "additional_parents": [
                 "unicum",
                 "concretum"
@@ -4033,6 +4172,7 @@
                 {
                     "name": "musicalWork",
                     "wrapper": true,
+                    "label": "musical work@en",
                     "additional_parents": [
                         "multitude"
                     ],
@@ -4127,6 +4267,14 @@
                             ]
                         },
                         {
+                            "name": "browser",
+                            "additional_parents": [
+                                "unicum"
+                            ],
+                            "children": [],
+                            "label": "browser@en"
+                        },
+                        {
                             "name": "website",
                             "additional_parents": [
                                 "unicum"
@@ -4169,6 +4317,7 @@
                 {
                     "name": "writtenWork",
                     "wrapper": true,
+                    "label": "written work@en",
                     "additional_parents": [
                         "movable"
                     ],
@@ -4247,6 +4396,7 @@
                         {
                             "name": "periodicalLiterature",
                             "wrapper": true,
+                            "label": "periodical literature@en",
                             "children": [
                                 {
                                     "name": "academicJournal",
@@ -4300,6 +4450,9 @@
                 },
                 {
                     "name": "device",
+                    "alternative_names": [
+                        "machine"
+                    ],
                     "additional_parents": [
                         "multitude",
                         "movable"
@@ -4328,6 +4481,9 @@
                             "children": [
                                 {
                                     "name": "automobileEngine",
+                                    "alternative_names": [
+                                        "car"
+                                    ],
                                     "children": [],
                                     "ontology_only": true,
                                     "label": "automobile engine@en"
@@ -4403,6 +4559,7 @@
                         {
                             "name": "meanOfTransportation",
                             "wrapper": true,
+                            "label": "mean of transportation@en",
                             "additional_parents": [
                                 "multitude",
                                 "movable"
@@ -4446,6 +4603,7 @@
                                 {
                                     "name": "on-SiteTransportation",
                                     "wrapper": true,
+                                    "label": "on-site transportation@en",
                                     "children": [
                                         {
                                             "name": "conveyorSystem",
@@ -4585,5 +4743,2544 @@
             ]
         }
     ]
+},
+{
+    "name": "moth",
+    "alternative_names": [
+        "moths"
+    ],
+    "label": "Moth@en",
+    "additional_parents": [
+        "insect"
+    ]
+},
+{
+    "name": "butterfly",
+    "alternative_names": [
+        "butterflies"
+    ],
+    "label": "Butterfly@en",
+    "additional_parents": [
+        "insect"
+    ]
+},
+{
+    "name": "manufacturer",
+    "label": "Manufacturer@en",
+    "additional_parents": [
+        "company"
+    ]
+},
+{
+    "name": "general",
+    "label": "General@en",
+    "additional_parents": [
+        "militaryPerson"
+    ]
+},
+{
+    "name": "physician",
+    "alternative_names": [
+        "physicist"
+    ],
+    "label": "Physician@en",
+    "additional_parents": [
+        "scientist"
+    ]
+},
+{
+    "name": "eP",
+    "label": "EP@en",
+    "additional_parents": [
+        "album"
+    ]
+},
+{
+    "name": "novelist",
+    "label": "Novelist@en",
+    "additional_parents": [
+        "writer"
+    ]
+},
+{
+    "name": "mathematician",
+    "label": "Mathematician@en",
+    "additional_parents": [
+        "scientist"
+    ]
+},
+{
+    "name": "soldier",
+    "label": "Soldier@en",
+    "additional_parents": [
+        "militaryPerson"
+    ]
+},
+{
+    "name": "frog",
+    "alternative_names": [
+        "frogs"
+    ],
+    "label": "Frog@en",
+    "additional_parents": [
+        "amphibian"
+    ]
+},
+{
+    "name": "king",
+    "label": "King@en",
+    "additional_parents": [
+        "royalty"
+    ]
+},
+{
+    "name": "activist",
+    "label": "Activist@en",
+    "additional_parents": [
+        "person"
+    ]
+},
+{
+    "name": "runner",
+    "alternative_names": [
+        "sprinter"
+    ],
+    "label": "Runner@en",
+    "additional_parents": [
+        "athlete"
+    ]
+},
+{
+    "name": "association",
+    "label": "Association@en",
+    "additional_parents": [
+        "organisation"
+    ]
+},
+{
+    "name": "entrepreneur",
+    "additional_parents": [
+        "businessPerson"
+    ],
+    "label": "Entrepreneur@en"
+},
+{
+    "name": "car",
+    "additional_parents": [
+        "automobile"
+    ],
+    "label": "Car@en"
+},
+{
+    "name": "brand",
+    "additional_parents": [
+        "company"
+    ],
+    "label": "Brand@en"
+},
+{
+    "name": "orchid",
+    "alternative_names": [
+        "orchids"
+    ],
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Orchid@en"
+},
+{
+    "name": "firm",
+    "additional_parents": [
+        "company"
+    ],
+    "label": "Firm@en"
+},
+{
+    "name": "commander",
+    "additional_parents": [
+        "militaryPerson"
+    ],
+    "label": "Commander@en"
+},
+{
+    "name": "shrub",
+    "alternative_names": [
+        "shrubs"
+    ],
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Shrub@en"
+},
+{
+    "name": "jumper",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Jumper@en"
+},
+{
+    "name": "botanist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Botanist@en"
+},
+{
+    "name": "filmmaker",
+    "additional_parents": [
+        "artist"
+    ],
+    "label": "Filmmaker@en"
+},
+{
+    "name": "clergyman",
+    "additional_parents": [
+        "cleric"
+    ],
+    "label": "Clergyman@en"
+},
+{
+    "name": "theologian",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Theologian@en"
+},
+{
+    "name": "rapper",
+    "additional_parents": [
+        "singer"
+    ],
+    "label": "Rapper@en"
+},
+{
+    "name": "documentary",
+    "additional_parents": [
+        "film"
+    ],
+    "label": "Documentary@en"
+},
+{
+    "name": "judoka",
+    "additional_parents": [
+        "martialArtist"
+    ],
+    "label": "Judoka@en"
+},
+{
+    "name": "conference",
+    "additional_parents": [
+        "societalEvent"
+    ],
+    "label": "Conference@en"
+},
+{
+    "name": "ministry",
+    "additional_parents": [
+        "governmentAgency"
+    ],
+    "label": "Ministry@en"
+},
+{
+    "name": "violinist",
+    "alternative_names": [
+        "fiddler",
+        "violist"
+    ],
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Violinist@en"
+},
+{
+    "name": "charity",
+    "additional_parents": [
+        "non-ProfitOrganisation"
+    ],
+    "label": "Charity@en"
+},
+{
+    "name": "dish",
+    "additional_parents": [
+        "food"
+    ],
+    "label": "Dish@en"
+},
+{
+    "name": "pilot",
+    "alternative_names": [
+        "aviator"
+    ],
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Pilot@en"
+},
+{
+    "name": "admiral",
+    "additional_parents": [
+        "militaryPerson"
+    ],
+    "label": "Admiral@en"
+},
+{
+    "name": "residence",
+    "additional_parents": [
+        "building"
+    ],
+    "label": "Residence@en"
+},
+{
+    "name": "archaeologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Archaeologist@en"
+},
+{
+    "name": "submarine",
+    "alternative_names": [
+        "submarines"
+    ],
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Submarine@en"
+},
+{
+    "name": "soprano",
+    "additional_parents": [
+        "singer"
+    ],
+    "label": "Soprano@en"
+},
+{
+    "name": "weightlifter",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Weightlifter@en"
+},
+{
+    "name": "court",
+    "additional_parents": [
+        "building"
+    ],
+    "label": "Court@en"
+},
+{
+    "name": "sociologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Sociologist@en"
+},
+{
+    "name": "duke",
+    "additional_parents": [
+        "noble"
+    ],
+    "label": "Duke@en"
+},
+{
+    "name": "palace",
+    "additional_parents": [
+        "building"
+    ],
+    "label": "Palace@en"
+},
+{
+    "name": "dJ",
+    "additional_parents": [
+        "musicalArtist"
+    ],
+    "label": "DJ@en"
+},
+{
+    "name": "queen",
+    "additional_parents": [
+        "royalty"
+    ],
+    "label": "Queen@en"
+},
+{
+    "name": "orchestra",
+    "additional_parents": [
+        "ensemble"
+    ],
+    "label": "Orchestra@en"
+},
+{
+    "name": "princess",
+    "additional_parents": [
+        "royalty"
+    ],
+    "label": "Princess@en"
+},
+{
+    "name": "ridge",
+    "additional_parents": [
+        "naturalPlace"
+    ],
+    "aliases": [
+        "mountain ridge"
+    ],
+    "label": "Ridge@en"
+},
+{
+    "name": "mantis",
+    "additional_parents": [
+        "insect"
+    ],
+    "label": "Mantis@en"
+},
+{
+    "name": "diver",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Diver@en"
+},
+{
+    "name": "gun",
+    "additional_parents": [
+        "weapon"
+    ],
+    "label": "Gun@en"
+},
+{
+    "name": "tenor",
+    "additional_parents": [
+        "singer"
+    ],
+    "label": "Tenor@en"
+},
+{
+    "name": "engraver",
+    "additional_parents": [
+        "artist"
+    ],
+    "label": "Engraver@en"
+},
+{
+    "name": "saxophonist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Saxophonist@en"
+},
+{
+    "name": "cEO",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "CEO@en"
+},
+{
+    "name": "eel",
+    "alternative_names": [
+        "eels"
+    ],
+    "additional_parents": [
+        "fish"
+    ],
+    "label": "Eel@en"
+},
+{
+    "name": "psychiatrist",
+    "additional_parents": [
+        "medician"
+    ],
+    "label": "Psychiatrist@en"
+},
+{
+    "name": "ballad",
+    "additional_parents": [
+        "song"
+    ],
+    "label": "Ballad@en"
+},
+{
+    "name": "captain",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Captain@en"
+},
+{
+    "name": "foundation",
+    "additional_parents": [
+        "non-ProfitOrganisation"
+    ],
+    "label": "Foundation@en"
+},
+{
+    "name": "tale",
+    "additional_parents": [
+        "writtenWork"
+    ],
+    "label": "Tale@en"
+},
+{
+    "name": "variant",
+    "additional_parents": [
+        "weapon"
+    ],
+    "label": "Variant@en"
+},
+{
+    "name": "dance",
+    "additional_parents": [
+        "work",
+        "activity"
+    ],
+    "label": "Dance@en"
+},
+{
+    "name": "thriller",
+    "additional_parents": [
+        "film"
+    ],
+    "label": "Thriller@en"
+},
+{
+    "name": "peninsula",
+    "additional_parents": [
+        "populatedPlace"
+    ],
+    "label": "Peninsula@en"
+},
+{
+    "name": "gallery",
+    "additional_parents": [
+        "museum"
+    ],
+    "label": "Gallery@en"
+},
+{
+    "name": "grass",
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Grass@en"
+},
+{
+    "name": "army",
+    "additional_parents": [
+        "militaryUnit"
+    ],
+    "label": "Army@en"
+},
+{
+    "name": "blenny",
+    "additional_parents": [
+        "fish"
+    ],
+    "label": "Blenny@en"
+},
+{
+    "name": "retailer",
+    "additional_parents": [
+        "company"
+    ],
+    "label": "Retailer@en"
+},
+{
+    "name": "ferry",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Ferry@en"
+},
+{
+    "name": "fly",
+    "alternative_names": [
+        "flies"
+    ],
+    "additional_parents": [
+        "insect"
+    ],
+    "label": "Fly@en"
+},
+{
+    "name": "ulidiid",
+    "additional_parents": [
+        "fly"
+    ],
+    "label": "Ulidiid@en"
+},
+{
+    "name": "pastor",
+    "additional_parents": [
+        "priest"
+    ],
+    "label": "Pastor@en"
+},
+{
+    "name": "philologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Philologist@en"
+},
+{
+    "name": "brigade",
+    "additional_parents": [
+        "militaryUnit"
+    ],
+    "label": "Brigade@en"
+},
+{
+    "name": "mountaineer",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Mountaineer@en"
+},
+{
+    "name": "store",
+    "additional_parents": [
+        "company"
+    ],
+    "label": "Store@en"
+},
+{
+    "name": "cichlid",
+    "additional_parents": [
+        "fish"
+    ],
+    "label": "Cichlid@en"
+},
+{
+    "name": "algae",
+    "alternative_names": [
+        "alga"
+    ],
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Algae@en"
+},
+{
+    "name": "walker",
+    "alternative_names": [
+        "racewalker"
+    ],
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Walker@en"
+},
+{
+    "name": "colonel",
+    "additional_parents": [
+        "militaryPerson"
+    ],
+    "label": "Colonel@en"
+},
+{
+    "name": "archdeacon",
+    "additional_parents": [
+        "cleric"
+    ],
+    "label": "Archdeacon@en"
+},
+{
+    "name": "translator",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Translator@en"
+},
+{
+    "name": "mites",
+    "additional_parents": [
+        "arachnid"
+    ],
+    "label": "Mites@en"
+},
+{
+    "name": "bill",
+    "additional_parents": [
+        "writtenWork"
+    ],
+    "label": "Bill@en"
+},
+{
+    "name": "steamer",
+    "alternative_names": [
+        "steamboat",
+        "steamship"
+    ],
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Steamer@en"
+},
+{
+    "name": "academy",
+    "additional_parents": [
+        "educationalInstitution"
+    ],
+    "label": "Academy@en"
+},
+{
+    "name": "observatory",
+    "additional_parents": [
+        "building"
+    ],
+    "label": "Observatory@en"
+},
+{
+    "name": "skippers",
+    "additional_parents": [
+        "butterfly"
+    ],
+    "label": "Skippers@en"
+},
+{
+    "name": "memoir",
+    "additional_parents": [
+        "book"
+    ],
+    "label": "Memoir@en"
+},
+{
+    "name": "virus",
+    "alternative_names": [
+        "viruses"
+    ],
+    "additional_parents": [
+        "species"
+    ],
+    "label": "Virus@en"
+},
+{
+    "name": "nunatak",
+    "additional_parents": [
+        "naturalPlace"
+    ],
+    "label": "Nunatak@en"
+},
+{
+    "name": "weaver",
+    "additional_parents": [
+        "arachnid"
+    ],
+    "label": "Weaver@en"
+},
+{
+    "name": "toad",
+    "additional_parents": [
+        "frog"
+    ],
+    "label": "Toad@en"
+},
+{
+    "name": "sportscaster",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Sportscaster@en"
+},
+{
+    "name": "hurdler",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Hurdler@en"
+},
+{
+    "name": "kickboxer",
+    "additional_parents": [
+        "martialArtist"
+    ],
+    "label": "Kickboxer@en"
+},
+{
+    "name": "sultan",
+    "additional_parents": [
+        "royalty"
+    ],
+    "label": "Sultan@en"
+},
+{
+    "name": "geographer",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Geographer@en"
+},
+{
+    "name": "cellist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Cellist@en"
+},
+{
+    "name": "glider",
+    "additional_parents": [
+        "aircraft"
+    ],
+    "label": "Glider@en"
+},
+{
+    "name": "rifle",
+    "additional_parents": [
+        "gun"
+    ],
+    "label": "Rifle@en"
+},
+{
+    "name": "preacher",
+    "additional_parents": [
+        "cleric"
+    ],
+    "label": "Preacher@en"
+},
+{
+    "name": "musicologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Musicologist@en"
+},
+{
+    "name": "spring",
+    "alternative_names": [
+        "headwater"
+    ],
+    "additional_parents": [
+        "bodyOfWater"
+    ],
+    "label": "Headwater@en"
+},
+{
+    "name": "cyclone",
+    "additional_parents": [
+        "naturalEvent"
+    ],
+    "label": "Cyclone@en"
+},
+{
+    "name": "samurai",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Samurai@en"
+},
+{
+    "name": "nurse",
+    "additional_parents": [
+        "medician"
+    ],
+    "label": "Nurse@en"
+},
+{
+    "name": "schooner",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Schooner@en"
+},
+{
+    "name": "biography",
+    "additional_parents": [
+        "book"
+    ],
+    "label": "Biography@en"
+},
+{
+    "name": "trumpeter",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Trumpeter@en"
+},
+{
+    "name": "snowboarder",
+    "additional_parents": [
+        "winterSportPlayer"
+    ],
+    "label": "Snowboarder@en"
+},
+{
+    "name": "fortress",
+    "additional_parents": [
+        "militaryStructure"
+    ],
+    "label": "Fortress@en"
+},
+{
+    "name": "missile",
+    "additional_parents": [
+        "weapon"
+    ],
+    "label": "Missile@en"
+},
+{
+    "name": "creek",
+    "additional_parents": [
+        "stream"
+    ],
+    "label": "Creek@en"
+},
+{
+    "name": "liner",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Liner@en"
+},
+{
+    "name": "choreographer",
+    "additional_parents": [
+        "artist"
+    ],
+    "label": "Choreographer@en"
+},
+{
+    "name": "yacht",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Yacht@en"
+},
+{
+    "name": "anthem",
+    "alternative_names": [
+        "hymn"
+    ],
+    "additional_parents": [
+        "song"
+    ],
+    "label": "Anthem@en"
+},
+{
+    "name": "ballet",
+    "additional_parents": [
+        "dance"
+    ],
+    "label": "Ballet@en"
+},
+{
+    "name": "exhibition",
+    "additional_parents": [
+        "convention"
+    ],
+    "label": "Exhibition@en"
+},
+{
+    "name": "baritone",
+    "additional_parents": [
+        "singer"
+    ],
+    "label": "Baritone@en"
+},
+{
+    "name": "escort",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Escort@en"
+},
+{
+    "name": "abbot",
+    "additional_parents": [
+        "cleric"
+    ],
+    "label": "Abbot@en"
+},
+{
+    "name": "helicopter",
+    "additional_parents": [
+        "aircraft"
+    ],
+    "label": "Helicopter@en"
+},
+{
+    "name": "ornithologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Ornithologist@en"
+},
+{
+    "name": "lichen",
+    "additional_parents": [
+        "fungus"
+    ],
+    "label": "Lichen@en"
+},
+{
+    "name": "wasp",
+    "alternative_names": [
+        "wasps"
+    ],
+    "additional_parents": [
+        "insect"
+    ],
+    "label": "Wasp@en"
+},
+{
+    "name": "autobiography",
+    "additional_parents": [
+        "book"
+    ],
+    "label": "Autobiography@en"
+},
+{
+    "name": "triathlete",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Triathlete@en"
+},
+{
+    "name": "choir",
+    "additional_parents": [
+        "ensemble"
+    ],
+    "label": "Choir@en"
+},
+{
+    "name": "entertainer",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Entertainer@en"
+},
+{
+    "name": "meteorologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Meteorologist@en"
+},
+{
+    "name": "bug",
+    "alternative_names": [
+        "bug"
+    ],
+    "additional_parents": [
+        "insect"
+    ],
+    "label": "Bug@en"
+},
+{
+    "name": "statistician",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Statistician@en"
+},
+{
+    "name": "philatelist",
+    "additional_parents": [
+        "engineer"
+    ],
+    "label": "Philatelist@en"
+},
+{
+    "name": "reformer",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Reformer@en"
+},
+{
+    "name": "tanker",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Tanker@en"
+},
+{
+    "name": "pathologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Pathologist@en"
+},
+{
+    "name": "goby",
+    "additional_parents": [
+        "fish"
+    ],
+    "label": "Goby@en"
+},
+{
+    "name": "supergroup",
+    "additional_parents": [
+        "band"
+    ],
+    "label": "Supergroup@en"
+},
+{
+    "name": "magician",
+    "additional_parents": [
+        "artist"
+    ],
+    "label": "Magician@en"
+},
+{
+    "name": "daimyo",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Daimyo@en"
+},
+{
+    "name": "strait",
+    "additional_parents": [
+        "bodyOfWater"
+    ],
+    "label": "Strait@en"
+},
+{
+    "name": "archdiocese",
+    "additional_parents": [
+        "diocese"
+    ],
+    "label": "Archdiocese@en"
+},
+{
+    "name": "mobster",
+    "additional_parents": [
+        "criminal"
+    ],
+    "label": "Mobster@en"
+},
+{
+    "name": "physiologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Physiologist@en"
+},
+{
+    "name": "villa",
+    "additional_parents": [
+        "building"
+    ],
+    "label": "Villa@en"
+},
+{
+    "name": "coral",
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Coral@en"
+},
+{
+    "name": "neurologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Neurologist@en"
+},
+{
+    "name": "cantata",
+    "additional_parents": [
+        "classicalMusicComposition"
+    ],
+    "label": "Cantata@en"
+},
+{
+    "name": "truck",
+    "additional_parents": [
+        "automobile"
+    ],
+    "label": "Truck@en"
+},
+{
+    "name": "investor",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Investor@en"
+},
+{
+    "name": "dessert",
+    "additional_parents": [
+        "food"
+    ],
+    "label": "Dessert@en"
+},
+{
+    "name": "fjord",
+    "additional_parents": [
+        "bodyOfWater"
+    ],
+    "label": "Fjord@en"
+},
+{
+    "name": "orientalist",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Orientalist@en"
+},
+{
+    "name": "sloop",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Sloop@en"
+},
+{
+    "name": "astrophysicist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Astrophysicist@en"
+},
+{
+    "name": "tug",
+    "alternative_names": [
+        "tugboat"
+    ],
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Tug@en"
+},
+{
+    "name": "climber",
+    "additional_parents": [
+        "mountaineer"
+    ],
+    "label": "Climber@en"
+},
+{
+    "name": "mascot",
+    "additional_parents": [
+        "fictionalCharacter"
+    ],
+    "label": "Mascot@en"
+},
+{
+    "name": "paleontologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Paleontologist@en"
+},
+{
+    "name": "catfish",
+    "alternative_names": [
+        "catfishes"
+    ],
+    "additional_parents": [
+        "fish"
+    ],
+    "label": "Catfish@en"
+},
+{
+    "name": "concert",
+    "additional_parents": [
+        "societalEvent"
+    ],
+    "label": "Concert@en"
+},
+{
+    "name": "tree",
+    "alternative_names": [
+        "trees"
+    ],
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Tree@en"
+},
+{
+    "name": "typeface",
+    "alternative_names": [
+        "font"
+    ],
+    "additional_parents": [
+        "software"
+    ],
+    "label": "Typeface@en"
+},
+{
+    "name": "bowler",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Bowler@en"
+},
+{
+    "name": "lens",
+    "additional_parents": [
+        "device"
+    ],
+    "label": "Lens@en"
+},
+{
+    "name": "clarinetist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Clarinetist@en"
+},
+{
+    "name": "decathlete",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Decathlete@en"
+},
+{
+    "name": "consul",
+    "additional_parents": [
+        "politician"
+    ],
+    "label": "Consul@en"
+},
+{
+    "name": "marshal",
+    "additional_parents": [
+        "militaryPerson"
+    ],
+    "label": "Marshal@en"
+},
+{
+    "name": "warbler",
+    "additional_parents": [
+        "bird"
+    ],
+    "label": "Warbler@en"
+},
+{
+    "name": "laboratory",
+    "additional_parents": [
+        "organisation"
+    ],
+    "label": "Laboratory@en"
+},
+{
+    "name": "anatomist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Anatomist@en"
+},
+{
+    "name": "gunboat",
+    "additional_parents": [
+        "ship",
+        "militaryVehicle"
+    ],
+    "label": "Gunboat@en"
+},
+{
+    "name": "gecko",
+    "additional_parents": [
+        "reptile"
+    ],
+    "label": "Gecko@en"
+},
+{
+    "name": "percussionist",
+    "alternative_names": [
+        "drummer"
+    ],
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Percussionist@en"
+},
+{
+    "name": "nematode",
+    "additional_parents": [
+        "worm"
+    ],
+    "label": "Nematode@en"
+},
+{
+    "name": "skink",
+    "additional_parents": [
+        "reptile"
+    ],
+    "label": "Skink@en"
+},
+{
+    "name": "pharmacist",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Pharmacist@en"
+},
+{
+    "name": "worm",
+    "additional_parents": [
+        "animal"
+    ],
+    "label": "Worm@en"
+},
+{
+    "name": "shrimp",
+    "additional_parents": [
+        "crustacean"
+    ],
+    "label": "Shrimp@en"
+},
+{
+    "name": "ballerina",
+    "additional_parents": [
+        "dancer"
+    ],
+    "label": "Ballerina@en"
+},
+{
+    "name": "trombonist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Trombonist@en"
+},
+{
+    "name": "soup",
+    "additional_parents": [
+        "food"
+    ],
+    "label": "Soup@en"
+},
+{
+    "name": "feminist",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Feminist@en"
+},
+{
+    "name": "pistol",
+    "additional_parents": [
+        "gun"
+    ],
+    "label": "Pistol@en"
+},
+{
+    "name": "mussel",
+    "additional_parents": [
+        "mollusca"
+    ],
+    "label": "Mussel@en"
+},
+{
+    "name": "podcast",
+    "additional_parents": [
+        "work"
+    ],
+    "label": "Podcast@en"
+},
+{
+    "name": "uAVs",
+    "alternative_names": [
+        "drone",
+        "uAV"
+    ],
+    "additional_parents": [
+        "aircraft"
+    ],
+    "label": "UAV@en"
+},
+{
+    "name": "ecologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Ecologist@en"
+},
+{
+    "name": "palm",
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Palm@en"
+},
+{
+    "name": "squid",
+    "additional_parents": [
+        "mollusca"
+    ],
+    "label": "Squid@en"
+},
+{
+    "name": "beetle",
+    "alternative_names": [
+        "beetles"
+    ],
+    "additional_parents": [
+        "insect"
+    ],
+    "label": "Beetle@en"
+},
+{
+    "name": "scarabaeidae",
+    "additional_parents": [
+        "beetle"
+    ],
+    "label": "Scarabaeidae@en"
+},
+{
+    "name": "cake",
+    "additional_parents": [
+        "food"
+    ],
+    "label": "Cake@en"
+},
+{
+    "name": "theorem",
+    "additional_parents": [
+        "mathematicalConcept"
+    ],
+    "label": "Theorem@en"
+},
+{
+    "name": "brigadier",
+    "additional_parents": [
+        "militaryPerson"
+    ],
+    "label": "Brigadier@en"
+},
+{
+    "name": "cutter",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Cutter@en"
+},
+{
+    "name": "major",
+    "additional_parents": [
+        "militaryPerson"
+    ],
+    "label": "Major@en"
+},
+{
+    "name": "environmentalist",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Environmentalist@en"
+},
+{
+    "name": "harvestmen",
+    "additional_parents": [
+        "arachnid"
+    ],
+    "label": "Harvestmen@en"
+},
+{
+    "name": "fountain",
+    "additional_parents": [
+        "artwork"
+    ],
+    "label": "Fountain@en"
+},
+{
+    "name": "monster",
+    "additional_parents": [
+        "fictionalCharacter"
+    ],
+    "label": "Monster@en"
+},
+{
+    "name": "rally",
+    "additional_parents": [
+        "motorRace"
+    ],
+    "label": "Rally@en"
+},
+{
+    "name": "siege",
+    "additional_parents": [
+        "militaryConflict"
+    ],
+    "label": "Siege@en"
+},
+{
+    "name": "sect",
+    "additional_parents": [
+        "religiousOrganisation"
+    ],
+    "label": "Sect@en"
+},
+{
+    "name": "cocktail",
+    "additional_parents": [
+        "beverage"
+    ],
+    "label": "Cocktail@en"
+},
+{
+    "name": "mycologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Mycologist@en"
+},
+{
+    "name": "pediatrician",
+    "additional_parents": [
+        "medician"
+    ],
+    "label": "Pediatrician@en"
+},
+{
+    "name": "educationalist",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Educationalist@en"
+},
+{
+    "name": "cephalopod",
+    "additional_parents": [
+        "mollusca"
+    ],
+    "label": "Cephalopod@en"
+},
+{
+    "name": "vine",
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Vine@en"
+},
+{
+    "name": "sedge",
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Sedge@en"
+},
+{
+    "name": "snake",
+    "alternative_names": [
+        "snakes"
+    ],
+    "additional_parents": [
+        "reptile"
+    ],
+    "label": "Snake@en"
+},
+{
+    "name": "midges",
+    "additional_parents": [
+        "fly"
+    ],
+    "label": "Midges@en"
+},
+{
+    "name": "wrasse",
+    "additional_parents": [
+        "fish"
+    ],
+    "label": "Wrasse@en"
+},
+{
+    "name": "app",
+    "additional_parents": [
+        "software"
+    ],
+    "label": "App@en"
+},
+{
+    "name": "cardiologist",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Cardiologist@en"
+},
+{
+    "name": "inflammation",
+    "additional_parents": [
+        "disease"
+    ],
+    "label": "Inflammation@en"
+},
+{
+    "name": "sergeant",
+    "additional_parents": [
+        "militaryPerson"
+    ],
+    "label": "Sergeant@en"
+},
+{
+    "name": "tumor",
+    "additional_parents": [
+        "disease"
+    ],
+    "label": "Tumor@en"
+},
+{
+    "name": "psychoanalyst",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Psychoanalyst@en"
+},
+{
+    "name": "cartographer",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Cartographer@en"
+},
+{
+    "name": "infection",
+    "additional_parents": [
+        "disease"
+    ],
+    "label": "Infection@en"
+},
+{
+    "name": "skateboarder",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Skateboarder@en"
+},
+{
+    "name": "sUV",
+    "additional_parents": [
+        "car"
+    ],
+    "label": "SUV@en"
+},
+{
+    "name": "massacre",
+    "additional_parents": [
+        "attack"
+    ],
+    "label": "Massacre@en"
+},
+{
+    "name": "finch",
+    "additional_parents": [
+        "bird"
+    ],
+    "label": "Finch@en"
+},
+{
+    "name": "hurricane",
+    "additional_parents": [
+        "naturalEvent"
+    ],
+    "label": "Hurricane@en"
+},
+{
+    "name": "imam",
+    "additional_parents": [
+        "cleric"
+    ],
+    "label": "Imam@en"
+},
+{
+    "name": "pharaoh",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Pharaoh@en"
+},
+{
+    "name": "agronomist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Agronomist@en"
+},
+{
+    "name": "lizard",
+    "alternative_names": [
+        "lizards"
+    ],
+    "additional_parents": [
+        "reptile"
+    ],
+    "label": "Lizard@en"
+},
+{
+    "name": "pastry",
+    "additional_parents": [
+        "food"
+    ],
+    "label": "Pastry@en"
+},
+{
+    "name": "ant",
+    "alternative_names": [
+        "ant"
+    ],
+    "additional_parents": [
+        "insect"
+    ],
+    "label": "Ants@en"
+},
+{
+    "name": "pipeline",
+    "additional_parents": [
+        "routeOfTransportation"
+    ],
+    "label": "Pipeline@en"
+},
+{
+    "name": "clam",
+    "additional_parents": [
+        "mollusca"
+    ],
+    "label": "Clam@en"
+},
+{
+    "name": "dye",
+    "additional_parents": [
+        "chemicalCompound"
+    ],
+    "label": "Dye@en"
+},
+{
+    "name": "gobies",
+    "additional_parents": [
+        "fish"
+    ],
+    "label": "Gobies@en"
+},
+{
+    "name": "megabat",
+    "additional_parents": [
+        "bat"
+    ],
+    "label": "Megabat@en"
+},
+{
+    "name": "tachinid",
+    "additional_parents": [
+        "fly"
+    ],
+    "label": "Tachinid@en"
+},
+{
+    "name": "detective",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Detective@en"
+},
+{
+    "name": "harpist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Harpist@en"
+},
+{
+    "name": "distillery",
+    "additional_parents": [
+        "company"
+    ],
+    "label": "Distillery@en"
+},
+{
+    "name": "dwarf",
+    "additional_parents": [
+        "star"
+    ],
+    "label": "Dwarf@en"
+},
+{
+    "name": "immunologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Immunologist@en"
+},
+{
+    "name": "knot",
+    "additional_parents": [
+        "thing"
+    ],
+    "label": "Knot@en"
+},
+{
+    "name": "freighter",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Freighter@en"
+},
+{
+    "name": "snack",
+    "additional_parents": [
+        "food"
+    ],
+    "label": "Snack@en"
+},
+{
+    "name": "ester",
+    "additional_parents": [
+        "chemicalCompound"
+    ],
+    "label": "Ester@en"
+},
+{
+    "name": "pirate",
+    "additional_parents": [
+        "criminal"
+    ],
+    "label": "Pirate@en"
+},
+{
+    "name": "heptathlete",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Heptathlete@en"
+},
+{
+    "name": "brig",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Brig@en"
+},
+{
+    "name": "monkey",
+    "additional_parents": [
+        "mammal"
+    ],
+    "label": "Monkey@en"
+},
+{
+    "name": "conservationist",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Conservationist@en"
+},
+{
+    "name": "mineralogist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Mineralogist@en"
+},
+{
+    "name": "oiler",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Oiler@en"
+},
+{
+    "name": "karateka",
+    "additional_parents": [
+        "martialArtist"
+    ],
+    "label": "Karateka@en"
+},
+{
+    "name": "reactor",
+    "additional_parents": [
+        "powerStation"
+    ],
+    "label": "Reactor@en"
+},
+{
+    "name": "catshark",
+    "additional_parents": [
+        "animal"
+    ],
+    "label": "Catshark@en"
+},
+{
+    "name": "mallee",
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Mallee@en"
+},
+{
+    "name": "tragedy",
+    "additional_parents": [
+        "play"
+    ],
+    "label": "Tragedy@en"
+},
+{
+    "name": "duck",
+    "additional_parents": [
+        "bird"
+    ],
+    "label": "Duck@en"
+},
+{
+    "name": "duet",
+    "additional_parents": [
+        "song"
+    ],
+    "label": "Duet@en"
+},
+{
+    "name": "geophysicist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Geophysicist@en"
+},
+{
+    "name": "epidemiologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Epidemiologist@en"
+},
+{
+    "name": "duchess",
+    "additional_parents": [
+        "royalty"
+    ],
+    "label": "Duchess@en"
+},
+{
+    "name": "astrologer",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Astrologer@en"
+},
+{
+    "name": "bombing",
+    "additional_parents": [
+        "attack"
+    ],
+    "label": "Bombing@en"
+},
+{
+    "name": "violist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Violist@en"
+},
+{
+    "name": "sedan",
+    "additional_parents": [
+        "car"
+    ],
+    "label": "Sedan@en"
+},
+{
+    "name": "hoverfly",
+    "alternative_names": [
+        "hoverflies"
+    ],
+    "additional_parents": [
+        "insect"
+    ],
+    "label": "Hoverfly@en"
+},
+{
+    "name": "powerlifter",
+    "additional_parents": [
+        "weightlifter"
+    ],
+    "label": "Powerlifter@en"
+},
+{
+    "name": "prayer",
+    "additional_parents": [
+        "writtenWork"
+    ],
+    "label": "Prayer@en"
+},
+{
+    "name": "ethnologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Ethnologist@en"
+},
+{
+    "name": "legend",
+    "additional_parents": [
+        "tale"
+    ],
+    "label": "Legend@en"
+},
+{
+    "name": "rhyme",
+    "additional_parents": [
+        "writtenWork",
+        "song"
+    ],
+    "label": "Rhyme@en"
+},
+{
+    "name": "motorboat",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Motorboat@en"
+},
+{
+    "name": "lobster",
+    "additional_parents": [
+        "crustacean"
+    ],
+    "label": "Lobster@en"
+},
+{
+    "name": "candy",
+    "additional_parents": [
+        "food"
+    ],
+    "label": "Candy@en"
+},
+{
+    "name": "cuckoo",
+    "additional_parents": [
+        "bird"
+    ],
+    "label": "Cuckoo@en"
+},
+{
+    "name": "bee",
+    "alternative_names": [
+        "bees"
+    ],
+    "additional_parents": [
+        "insect"
+    ],
+    "label": "Bee@en"
+},
+{
+    "name": "fabric",
+    "additional_parents": [
+        "thing",
+        "multitude",
+        "movable"
+    ],
+    "label": "Fabric@en"
+},
+{
+    "name": "meteorite",
+    "additional_parents": [
+        "celestialBody"
+    ],
+    "label": "Meteorite@en"
+},
+{
+    "name": "dinghy",
+    "additional_parents": [
+        "ship"
+    ],
+    "label": "Dinghy@en"
+},
+{
+    "name": "palaeontologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Palaeontologist@en"
+},
+{
+    "name": "steroid",
+    "additional_parents": [
+        "chemicalCompound"
+    ],
+    "label": "Steroid@en"
+},
+{
+    "name": "virologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Virologist@en"
+},
+{
+    "name": "wildfire",
+    "additional_parents": [
+        "naturalEvent"
+    ],
+    "label": "Wildfire@en"
+},
+{
+    "name": "oboist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Oboist@en"
+},
+{
+    "name": "damselfish",
+    "additional_parents": [
+        "fish"
+    ],
+    "label": "Damselfish@en"
+},
+{
+    "name": "ichthyologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Ichthyologist@en"
+},
+{
+    "name": "starfish",
+    "additional_parents": [
+        "animal"
+    ],
+    "label": "Starfish@en"
+},
+{
+    "name": "microprocessor",
+    "additional_parents": [
+        "device"
+    ],
+    "label": "Microprocessor@en"
+},
+{
+    "name": "mariner",
+    "additional_parents": [
+        "device"
+    ],
+    "label": "Mariner@en"
+},
+{
+    "name": "neurosurgeon",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Neurosurgeon@en"
+},
+{
+    "name": "sandwich",
+    "additional_parents": [
+        "food"
+    ],
+    "label": "Sandwich@en"
+},
+{
+    "name": "indologist",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Indologist@en"
+},
+{
+    "name": "knife",
+    "additional_parents": [
+        "weapon"
+    ],
+    "label": "Knife@en"
+},
+{
+    "name": "belemnite",
+    "additional_parents": [
+        "mollusca"
+    ],
+    "label": "Belemnite@en"
+},
+{
+    "name": "stew",
+    "additional_parents": [
+        "food"
+    ],
+    "label": "Stew@en"
+},
+{
+    "name": "nunnery",
+    "additional_parents": [
+        "monastery"
+    ],
+    "label": "Nunnery@en"
+},
+{
+    "name": "bamboo",
+    "additional_parents": [
+        "plant"
+    ],
+    "label": "Bamboo@en"
+},
+{
+    "name": "pigeon",
+    "additional_parents": [
+        "bird"
+    ],
+    "label": "Pigeon@en"
+},
+{
+    "name": "windsurfer",
+    "additional_parents": [
+        "athlete"
+    ],
+    "label": "Windsurfer@en"
+},
+{
+    "name": "jellyfish",
+    "additional_parents": [
+        "fish"
+    ],
+    "label": "Jellyfish@en"
+},
+{
+    "name": "bacteriologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Bacteriologist@en"
+},
+{
+    "name": "herpetologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Herpetologist@en"
+},
+{
+    "name": "mMORPG",
+    "additional_parents": [
+        "videoGame"
+    ],
+    "label": "MMORPG@en"
+},
+{
+    "name": "pianist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Pianist@en"
+},
+{
+    "name": "chemist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Chemist@en"
+},
+{
+    "name": "rodent",
+    "additional_parents": [
+        "mammal"
+    ],
+    "label": "Rodent@en"
+},
+{
+    "name": "sitcom",
+    "additional_parents": [
+        "televisionShow"
+    ],
+    "label": "Sitcom@en"
+},
+{
+    "name": "astronomer",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Astronomer@en"
+},
+{
+    "name": "cartoonist",
+    "additional_parents": [
+        "artist"
+    ],
+    "label": "Cartoonist@en"
+},
+{
+    "name": "illustrator",
+    "additional_parents": [
+        "artist"
+    ],
+    "label": "Illustrator@en"
+},
+{
+    "name": "geologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Geologist@en"
+},
+{
+    "name": "anthropologist",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Anthropologist@en"
+},
+{
+    "name": "organist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Organist@en"
+},
+{
+    "name": "bat",
+    "additional_parents": [
+        "mammal"
+    ],
+    "label": "Bat@en"
+},
+{
+    "name": "bassist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Bassist@en"
+},
+{
+    "name": "salamander",
+    "additional_parents": [
+        "amphibian"
+    ],
+    "label": "Salamander@en"
+},
+{
+    "name": "hero",
+    "additional_parents": [
+        "fictionalCharacter"
+    ],
+    "label": "Hero@en"
+},
+{
+    "name": "superhero",
+    "additional_parents": [
+        "hero"
+    ],
+    "label": "Superhero@en"
+},
+{
+    "name": "knight",
+    "additional_parents": [
+        "militaryPerson"
+    ],
+    "label": "Knight@en"
+},
+{
+    "name": "encyclopedia",
+    "additional_parents": [
+        "work"
+    ],
+    "label": "Encyclopedia@en"
+},
+{
+    "name": "crab",
+    "additional_parents": [
+        "crustacean"
+    ],
+    "label": "Crab@en"
+},
+{
+    "name": "hummingbird",
+    "additional_parents": [
+        "bird"
+    ],
+    "label": "Hummingbird@en"
+},
+{
+    "name": "programmer",
+    "additional_parents": [
+        "person"
+    ],
+    "label": "Programmer@en"
+},
+{
+    "name": "keyboardist",
+    "additional_parents": [
+        "instrumentalist"
+    ],
+    "label": "Keyboardist@en"
+},
+{
+    "name": "bomber",
+    "additional_parents": [
+        "aircraft",
+        "militaryVehicle"
+    ],
+    "label": "Bomber@en"
+},
+{
+    "name": "salt",
+    "additional_parents": [
+        "mineral"
+    ],
+    "label": "Salt@en"
+},
+{
+    "name": "parrot",
+    "additional_parents": [
+        "bird"
+    ],
+    "label": "Parrot@en"
+},
+{
+    "name": "neuroscientist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Neuroscientist@en"
+},
+{
+    "name": "turtle",
+    "additional_parents": [
+        "reptile"
+    ],
+    "label": "Turtle@en"
+},
+{
+    "name": "shark",
+    "additional_parents": [
+        "animal"
+    ],
+    "label": "Shark@en"
+},
+{
+    "name": "owl",
+    "additional_parents": [
+        "bird"
+    ],
+    "label": "Owl@en"
+},
+{
+    "name": "microbiologist",
+    "additional_parents": [
+        "scientist"
+    ],
+    "label": "Microbiologist@en"
+},
+{
+    "name": "marathon",
+    "additional_parents": [
+        "sportsEvent"
+    ],
+    "label": "Marathon@en"
+},
+{
+    "name": "scorpion",
+    "additional_parents": [
+        "arachnid"
+    ],
+    "label": "Scorpion@en"
+},
+{
+    "name": "greenAlga",
+    "additional_parents": [
+        "algae"
+    ],
+    "children": [],
+    "ontology_only": true,
+    "label": "green alga@en"
+},
+{
+    "name": "brownDwarf",
+    "additional_parents": [
+        "dwarf"
+    ],
+    "label": "brown dwarf@en"
 }
 ]
